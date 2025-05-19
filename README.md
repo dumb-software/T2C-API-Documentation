@@ -1,2 +1,15 @@
 # T2C-API-Documentation
-T2C Unofficial API Documentation
+
+<h3 align="center">
+  <br>
+  <img src="https://github.com/dumb-software/T3C/blob/main/.github/assets/placeholder.png?raw=true" alt="Placeholder T3C logo"/>
+  <br>
+  <b>Documentation de l'API T2C</b>
+  <br>
+</h3>
+
+## Avertissement
+>[!CAUTION]
+> **Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
+> Nous ne sommes pas associés à "*[T2C](https://www.t2c.fr/)*", la "*Régie T2C*", à "*[C.Vélo](https://www.c-velo.fr/)*", au "*[SMTC-AC](https://www.smtc-clermont-agglo.fr/)*" ou à tout autre service lié au réseau de transport de Clermont.
+> Les logos, marques et autres éléments associés à T2C sont la propriété de leurs détenteurs respectifs.
