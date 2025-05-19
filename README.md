@@ -2,7 +2,7 @@
 
 <h3 align="center">
   <br>
-  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/placeholder.png?raw=true" alt="Placeholder API logo"/>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/placeholder.png?raw=true" width="150px" alt="Placeholder API logo"/>
   <br>
   <b>Documentation de l'API T2C</b>
   <br>
