@@ -8,6 +8,8 @@
   <br>
 </h3>
 
+<h3 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs">Lire la Documentation</a></h3>
+
 ## Avertissement
 >[!CAUTION]
 > **Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
