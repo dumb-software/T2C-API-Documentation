@@ -4,7 +4,7 @@
   <br>
   <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/apilogo.png?raw=true" width="550px" alt="Placeholder API logo"/>
   <br>
-  <b>Documentation de l'API T2C</b>
+  <b>Documentation non-officielle de l'API T2C</b>
   <br>
 </h3>
 
