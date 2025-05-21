@@ -8,7 +8,7 @@
 
 #### Présentation :
 
-**WD Push Server** est une backend principalement utilisé pour les Push Notifications de l'appli T2C.
+**WD Push Server** est une backend principalement utilisé pour les Push Notifications et les dernières données du réseau dans l'appli T2C.
 
 L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simple Object Access Protocol)](https://fr.wikipedia.org/wiki/SOAP).
 
