@@ -1,6 +1,6 @@
 ## Pegase - param
 
-Obtenir la dernière date des push notification envoyés?
+Obtenir la dernière date de la synchronisation avec l'appli?
 
 ### Obtenir la date
 
