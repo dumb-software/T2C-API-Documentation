@@ -55,6 +55,7 @@ ENV--@@--YYYYMMDDHHMMSSSSS--@@--NUM_CANAL--@@--NOM_LIGNE--@@--TITRE--@@--CONTENU
 Paramètres:
 
 Les paramètres de chaque notifications sont toujours séparés par `--@@--`
+
 * `ENV` indique l'environnement de la notification, par exemple, il peut être `PROD` (Public) ou `DEV`.
 * `YYYYMMDDHHMMSSSSS` représente la date et l'heure de publication de la notification, par exemple, il peut être `20250606171816046`.
 * `NUM_CANAL` désigne le canal de notification, par exemple, `1` pour le canal global (tous les utilisateurs sont notifiés) ou `2` pour le canal spécifique (notifie une ligne particulière).
@@ -62,4 +63,5 @@ Les paramètres de chaque notifications sont toujours séparés par `--@@--`
 * `TITRE` correspond au nom affiché sur la notification, par exemple, `Manifestations`.
 * `CONTENU_NOTIF` correspond au contenu affiché dans la notification, exemple, `Difficultés de circulation...`
 * `ID_NOTIF` indique l'identifiant de la notification, exemple, `11675`
+  
 Chaque notification se termine par la balise `<FINNOTIF>` juste après `ID_NOTIF`.
