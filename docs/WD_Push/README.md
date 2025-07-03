@@ -8,7 +8,7 @@
 
 #### Présentation :
 
-**WinDev Push Server** est une backend principalement utilisé pour les Push Notifications et les dernières données du réseau dans l'appli T2C.
+**WinDev Push Server** est une backend principalement utilisée pour executer des actions, elle est utilisée pour recevoir certaines informations du réseau T2C.
 
 [Ce serveur](https://help.windev.com/fr-FR/?1000021015) est proposé par WinDev Mobile et utilise la même infrastructure que leur application mobile, ce qui facilite son intégration.
 
