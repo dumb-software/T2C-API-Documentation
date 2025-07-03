@@ -14,7 +14,7 @@ Onglet "Infos Traffic" de l'application T2C
 
 ### Exemple de réponse:
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <rss
 	xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
