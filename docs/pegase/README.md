@@ -1,6 +1,6 @@
 <h3 align="center">
   <br>
-  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/pegase.png?raw=true" width="550px" alt="WD Push Server Logo"/>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/pegase.png?raw=true" width="550px" alt="Pegase logo"/>
   <br>
   <h2 align="center">Pegase Server</h2>
   <br>
