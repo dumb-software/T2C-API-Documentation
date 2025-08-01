@@ -10,6 +10,10 @@
 
 <h3 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs">Lire la Documentation</a></h3>
 
+## Contribuer
+
+Si vous voulez contribuer à cette documentation, merci d'ouvrir une [pull-request](https://github.com/dumb-software/T2C-API-Documentation/pulls).
+
 ## Avertissement
 >[!CAUTION]
 > **Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
