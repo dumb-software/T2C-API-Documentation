@@ -1,6 +1,7 @@
 ## T2C XML - alerte.xml
 
-Dernières Alertes dans l'application T2C
+Dernières Alertes dans l'application T2C.
+Les alertes sont les messages qui apparaissent au premier-plan lors du lancement de l'application.
 
 ### Obtenir les dernieres alertes
 
