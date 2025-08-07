@@ -8,7 +8,7 @@
 
 #### Présentation :
 
-**Pegase Server** est une backend pour contenir certaines informations en direct du réseau T2C? Elle contient principalement le contenu des notifications.
+**Pegase Server** est une backend qui gère le contenu des notifications.
 
 ## Avertissement
 >[!CAUTION]
