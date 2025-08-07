@@ -10,6 +10,13 @@
 
 **Pegase Server** est une backend qui gère le contenu des notifications.
 
+#### Endpoints :
+
+| Enpoint                              | Description                                     |
+| :----------------------------------- | :---------------------------------------------- |
+| [/param.txt](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/pegase/param.md)                           |Date et heure des dernières modifications des notifications.|
+| [/notification.txt](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/pegase/notification.md)                    |Contenu des dernières Notifications.|
+
 ## Avertissement
 >[!CAUTION]
 > **Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
