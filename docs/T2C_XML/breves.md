@@ -1,6 +1,8 @@
 ## T2C XML - breves.xml
 
-Onglet "Brèves" de l'application T2C
+Contenu affiché dans l'onglet "Brèves" de l'application T2C.
+
+Les titres des brèves sont aussi affichés dans le bandeau déroulant de l'accueil.
 
 ### Obtenir les dernieres brèves de la T2C
 
