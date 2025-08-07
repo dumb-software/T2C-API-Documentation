@@ -1,8 +1,9 @@
 ## Pegase - param
 
-Obtenir la dernière date de la synchronisation avec l'appli?
+Obtenir la dernière date/heure des dernières modifications des [notifications](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/pegase/notification.md)
+L'application T2C vérifie régulièrement cet endpoint pour vérifier si il y'a de nouvelles notifications.
 
-### Obtenir la date
+### Obtenir la date des dernières modifications
 
 #### URL
 ```
