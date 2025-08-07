@@ -1,6 +1,8 @@
 ## T2C XML - evenements.xml
 
-Onglet "Actualités" de l'application T2C
+Onglet "Actualités" de l'application T2C.
+
+Les actualités sont aussi affichés dans le menu "Accueil" dans l'application.
 
 ### Obtenir les derniers posts de la T2C
 
