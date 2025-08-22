@@ -8,7 +8,7 @@
 
 #### Présentation :
 
-Les **XML T2C** contiennent toutes les dernières informations du réseau T2C. Elle contient les Alertes, les brèves, les évenements et les infos-traffic.
+Les **XML T2C** contiennent toutes les dernières informations du réseau T2C. Elle contient les Alertes, les brèves, les évenements et les infos-trafic.
 
 La plupart des XML sont utilisés dans l'application T2C.
 
