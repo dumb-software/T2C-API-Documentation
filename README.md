@@ -8,7 +8,7 @@
   <br>
 </h3>
 
-<h2 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs">Lire la Documentation</a></h2>
+<h2 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs"> >>> Lire la Documentation <<< </a></h2>
 
 ## Contribuer
 
