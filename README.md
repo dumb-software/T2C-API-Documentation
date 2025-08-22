@@ -2,17 +2,17 @@
 
 <h3 align="center">
   <br>
-  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/apilogo.png?raw=true" width="550px" alt="Placeholder API logo"/>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/apilogo2.png?raw=true" width="250px" alt="Placeholder API logo"/>
   <br>
   <b>Documentation non-officielle de l'API T2C</b>
   <br>
 </h3>
 
-<h3 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs">Lire la Documentation</a></h3>
+<h2 align=center><a href="https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs">Lire la Documentation</a></h2>
 
 ## Contribuer
 
-Si vous voulez contribuer à cette documentation, merci d'ouvrir une [pull-request](https://github.com/dumb-software/T2C-API-Documentation/pulls).
+Si vous souhaitez contribuer à cette documentation, merci d'ouvrir une [pull-request](https://github.com/dumb-software/T2C-API-Documentation/pulls).
 
 ## Avertissement
 >[!CAUTION]
