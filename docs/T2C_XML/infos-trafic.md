@@ -1,6 +1,6 @@
-## T2C XML - infos-traffic.xml
+## T2C XML - infos-trafic.xml
 
-Onglet "Infos Traffic" de l'application T2C
+Onglet "Infos Trafic" de l'application T2C
 
 ### Obtenir les derniers incidents et autres informations
 
