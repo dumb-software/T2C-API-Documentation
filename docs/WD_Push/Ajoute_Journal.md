@@ -23,7 +23,7 @@ Un reste de documentation d'un employé T2C dans l'appli dit:
 > Indiquez ici un exemple d'utilisation
 
 Théorie:
-Celà affiche un message dans les logs du serveur.
+Cela affiche un message dans les logs du serveur.
 
 ### Afficher un message dans les logs du serveur???
 
