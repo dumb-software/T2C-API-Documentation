@@ -16,6 +16,9 @@ Les titres des brèves sont aussi affichés dans le bandeau déroulant de l'accu
 
 ### Exemple de réponse:
 
+<details>
+  <summary>Cliquez pour voir</summary>
+
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <rss
@@ -386,6 +389,8 @@ Pour consulter le guide horaires, &lt;a href="https://www.t2c.fr/votre-trajet/ho
 </rss>
 
 ```
+
+</details>
 
 Attributs du XML Brève:
 
