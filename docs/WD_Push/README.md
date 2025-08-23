@@ -23,7 +23,7 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 | __ListeIdentifiants                                                                                                                                         |                                                 |
 | AjouteIdentifiantAndroid                                                                                                                                    |                                                 |
 | AjouteIdentifiantIOS                                                                                                                                        |                                                 |
-| Ajoute_Journal                                                                                                                                              |                                                 |
+| [Ajoute_Journal](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Ajoute_Journal.md)                                           | ❓                                              |
 | [DonneVersionReseau](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/DonneVersionReseau.md)                                   | Obtenir la dernière version du réseau.          |
 | DroitPush                                                                                                                                                   |                                                 |
 | ListeIdentifiantsAndroid                                                                                                                                    |                                                 |
