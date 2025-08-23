@@ -8,7 +8,7 @@
 
 #### Présentation :
 
-**WinDev Push Server** est une backend principalement utilisée pour executer des actions, elle est utilisée pour recevoir certaines informations du réseau T2C.
+**WinDev Push Server** est une backend principalement utilisée pour executer des actions, elle est utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
 
 [Ce serveur](https://help.windev.com/fr-FR/?1000021015) est proposé par WinDev Mobile et utilise la même infrastructure que leur application mobile, ce qui facilite son intégration.
 
@@ -30,11 +30,11 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 | ListeIdentifiantsIOS                ||
 | ListePushNotification               ||
 | PageWebAffiche                      ||
-| Retourne_Donnees_Reseau_arret       ||
-| Retourne_Donnees_Reseau_dest        ||
-| Retourne_Donnees_Reseau_ligne       ||
-| Retourne_Donnees_Reseau_ligne_image ||
-| Retourne_Donnees_Reseau_tarif       ||
+| Retourne_Donnees_Reseau_arret       | Obtenir les informations de chaque Arrêt. |
+| Retourne_Donnees_Reseau_dest        | Obtenir les informations de chaque Destination. |
+| Retourne_Donnees_Reseau_ligne       | Obtenir les informations de chaque Ligne. |
+| Retourne_Donnees_Reseau_ligne_image | Obtenir les images de chaque Ligne.|
+| Retourne_Donnees_Reseau_tarif       | Obtenir les prix et infos de chaque Tarifs. |
 
 ## Avertissement
 >[!CAUTION]
