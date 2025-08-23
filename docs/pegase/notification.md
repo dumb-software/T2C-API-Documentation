@@ -56,7 +56,7 @@ Paramètres:
 
 Les paramètres de chaque notifications sont toujours séparés par `--@@--`
 
-* `ENV` indique l'environnement de la notification, par exemple, il peut être `PROD` (Public) ou `DEV`.
+* `ENV` indique l'environnement de la notification, par exemple, il est tout le temps sur `PROD` (Public).
 * `YYYYMMDDHHMMSSSSS` représente la date et l'heure de publication de la notification, par exemple, il peut être `20250606171816046`.
 * `NUM_CANAL` désigne le canal de notification, par exemple, `1` pour le canal global (tous les utilisateurs sont notifiés) ou `2` pour le canal spécifique (notifie une ligne particulière).
 * `NOM_LIGNE` correspond au nom utilisé pour les lignes spécifiques, par exemple, `Ligne C` **uniquement** si `NUM_CANAL` est défini sur `2`, sinon, le champ sera vide.
