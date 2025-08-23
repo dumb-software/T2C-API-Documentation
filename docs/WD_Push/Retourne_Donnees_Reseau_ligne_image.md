@@ -32,7 +32,7 @@ Cela contient les images *en 180p* affiché dans l'application.
 ### Exemple de réponse:
 
 <details>
-  <summary>Cliquez pour voir (LA RÉPONSE EST TRÈS LONGUE)</summary>
+  <summary>Cliquez pour voir (LA RÉPONSE EST TRÈS LONGUE QUE NE PEUX PAS LA METTRE)</summary>
   
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -87,8 +87,9 @@ Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_ligne_im
 
 Pour lire les informations, **nous vous recommendons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()).**
 
-En decodant l'exemple ci dessus, cela donne:
+En decodant l'exemple ci dessus, cela donne: (LA RÉPONSE EST TELLEMENT LONGUE QUE JE PEUX PAS LA METTRE)
 ```json
 ReponseOKT2C--[ { "m_sNom_ligne_img":"ligne-a.jpg", "m_sbufImage_ligne":"FF D8 FF E0 00 10 4A 46 49 46 00 01 01 01 01 90\r\n01 90 00 00 FF E1 00 68 45 78...```
-
+```
 Les images sont encore encodés, en Hex cette fois ci, utilisez [ce preset CyberChef](https://cyberchef.io/#recipe=From_Hex('Auto')) pour extraire le contenu encodé en Hex uniquement.
+
