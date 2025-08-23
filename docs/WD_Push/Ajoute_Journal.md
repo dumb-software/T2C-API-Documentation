@@ -35,7 +35,7 @@ Cela affiche un message dans les logs du serveur.
 #### Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/Ajoute_Journal`    | **Requis.** Envoyer des logs???. |
+| `SOAPAction` | `urn:WD_Serveur_Push/Ajoute_Journal`    | **Requis.** Envoyer des logs??? |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
 #### Données (Payload):
