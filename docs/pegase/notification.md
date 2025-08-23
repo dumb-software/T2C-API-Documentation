@@ -14,6 +14,9 @@ Obtenir le contenu de toutes les dernières notifications (Push & Appli).
 
 ### Exemple de réponse:
 
+<details>
+  <summary>Cliquez pour voir</summary>
+
 ```
 PROD--@@--20250604075931861--@@--1--@@----@@--Lundi 9 juin--@@--Lundi 9 juin, les horaires et itin�raires du r�seau T2C seront assur�s comme un dimanche et jours f�ri�s. Vous devrez �tre en possession d'un titre de transport valide. t2c.fr--@@--11651<FINNOTIF>
 PROD--@@--20250604101922046--@@--2--@@--Ligne 13--@@--Ligne 13--@@--Travaux, les bus de la ligne 13 en direction de P�rignat Les Horts seront d�vi�s du mardi 10 au mercredi 11 juin : les arr�ts Berlioz, R�gensburg et 8 Mai seront report�s. t2c.fr--@@--11652<FINNOTIF>
@@ -45,6 +48,8 @@ PROD--@@--20250606190112412--@@--2--@@--Ligne Tram A--@@--Ligne A--@@--Accident,
 PROD--@@--20250606190353226--@@--2--@@--Ligne Tram A--@@--Ligne A--@@--Reprise du trafic de la ligne A entre les stations Les Vergnes et La Pardieu Gare. Nous vous prions de nous excuser pour la g�ne occasionn�e.--@@--11678<FINNOTIF>
 
 ```
+
+</details>
 
 La réponse contient des informations générales sur le réseau, il est donné sous ce style pour chaque notification:
 
