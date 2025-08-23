@@ -31,6 +31,9 @@ Cela contient les noms, l'identifiant des Lignes, les noms d'images associés à
 
 ### Exemple de réponse:
 
+<details>
+  <summary>Cliquez pour voir (LA RÉPONSE EST TRÈS LONGUE)</summary>
+	
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
@@ -2728,6 +2731,8 @@ B089jNffv/nXMzZfvPrbb/75zbu37z67D+2Dxx8G5r9+++VH0DO/2fH44PFHE+W7v/gvb9/p&#13;
 	</SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
+</details>
 
 Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_ligneResult>`, mais **elles sont encodés en BASE64 puis en GunZip!**
 
