@@ -382,77 +382,109 @@ Pour consulter le guide horaires, &lt;a href="https://www.t2c.fr/votre-trajet/ho
 			<pubDate>Thu, 02 May 2024 11:39:02 +0000</pubDate>
 			<guid isPermaLink="false">260004 at https://www.t2c.fr</guid>
 		</item>
-		<item>
-			<title>Projet InspiRe - Découvrez une maquette 3D innovante pour plonger dans la métropole de demain</title>
-			<link>https://www.t2c.fr/actu-breves/projet-inspire-decouvrez-une-maquette-3d-innovante-pour-plonger-dans-la-metropole-de</link>
-			<description>
-&lt;span&gt;Projet InspiRe - Découvrez une maquette 3D innovante pour plonger dans la métropole de demain&lt;/span&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.t2c.fr/actu-breves/projet-inspire-decouvrez-une-maquette-3d-innovante-pour-plonger-dans-la-metropole-de" title="Projet InspiRe - Découvrez une maquette 3D innovante pour plonger dans la métropole de demain" target="_blank"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</description>
-			<pubDate>Mon, 11 Mar 2024 10:56:19 +0000</pubDate>
-			<guid isPermaLink="false">259889 at https://www.t2c.fr</guid>
-		</item>
-		<item>
-			<title>Vigilance fraude</title>
-			<link>https://www.t2c.fr/actu-breves/vigilance-fraude</link>
-			<description>
-&lt;span&gt;Vigilance fraude&lt;/span&gt;
-
-&lt;p&gt;&lt;strong&gt;Restez vigilants face aux fraudes en ligne !&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.t2c.fr/actu-breves/vigilance-fraude" title="Vigilance fraude" target="_blank"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</description>
-			<pubDate>Mon, 15 Jan 2024 08:48:00 +0000</pubDate>
-			<guid isPermaLink="false">263179 at https://www.t2c.fr</guid>
-		</item>
-		<item>
-			<title>Gratuité les week-ends prolongée jusqu'en 2027</title>
-			<link>https://www.t2c.fr/actu-breves/gratuite-les-week-ends-prolongee-jusquen-2027</link>
-			<description>
-&lt;span&gt;Gratuité les week-ends prolongée jusqu'en 2027&lt;/span&gt;
-
-&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://www.t2c.fr/actu-breves/gratuite-les-week-ends-prolongee-jusquen-2027" title="Gratuité les week-ends prolongée jusqu'en 2027" target="_blank"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</description>
-			<pubDate>Thu, 26 Oct 2023 14:53:14 +0000</pubDate>
-			<guid isPermaLink="false">249872 at https://www.t2c.fr</guid>
-		</item>
-		<item>
-			<title>Voyager à plusieurs avec un Billet Sans Contact </title>
-			<link>https://www.t2c.fr/actu-breves/voyager-plusieurs-avec-un-billet-sans-contact</link>
-			<description>
-&lt;span&gt;Voyager à plusieurs avec un Billet Sans Contact &lt;/span&gt;
-
-&lt;p&gt;Vous pouvez voyager &lt;strong&gt;à plusieurs avec un seul Billet Sans Contact&lt;/strong&gt;, chargé avec des voyages :&lt;/p&gt;
-&lt;p&gt;&lt;a href="https://www.t2c.fr/actu-breves/voyager-plusieurs-avec-un-billet-sans-contact" title="Voyager à plusieurs avec un Billet Sans Contact " target="_blank"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</description>
-			<pubDate>Wed, 09 Nov 2022 13:43:26 +0000</pubDate>
-			<guid isPermaLink="false">211536 at https://www.t2c.fr</guid>
-		</item>
-		<item>
-			<title>C.Vélo</title>
-			<link>https://www.t2c.fr/actu-breves/cvelo</link>
-			<description>
-&lt;span&gt;C.Vélo&lt;/span&gt;
-
-&lt;p&gt;&lt;span style="color:null;"&gt;C.Vélo : les vélos en location et libre service.&lt;/span&gt; &lt;/p&gt;&lt;p&gt;&lt;a href="https://www.t2c.fr/actu-breves/cvelo" title="C.Vélo" target="_blank"&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
-</description>
-			<pubDate>Wed, 10 Jun 2020 07:00:00 +0000</pubDate>
-			<guid isPermaLink="false">3696 at https://www.t2c.fr</guid>
-		</item>
-		<item>
-			<title>Lancement de l'expérimentation "Descente à la demande"</title>
-			<link>https://www.t2c.fr/actu-breves/lancement-de-lexperimentation-descente-la-demande</link>
-			<description>
-&lt;span&gt;Lancement de l'expérimentation "Descente à la demande"&lt;/span&gt;
-
-&lt;p&gt;Le Syndicat Mixte des Transports en Commun de l'agglomération clermontoise (SMTC-AC) et&amp;nbsp; T2C lancent, ce 1er juillet 2024, une expérimentation de "descente à la demande".&lt;/p&gt;
-</description>
-			<pubDate>Tue, 18 Jun 2024 13:36:08 +0000</pubDate>
-			<guid isPermaLink="false">261617 at https://www.t2c.fr</guid>
-		</item>
 	</channel>
 </rss>
 
 ```
 
-workinprogress
+Attributs du XML Brève:
+
+* Le formatage doit être un minimum correct, sinon le message ne s'affiche pas dans l'application T2C.
+* Le message dans la balise `<description>` doit obligatoirement commencer par une balise <span>, puis un saut de ligne et le message formaté.
+* Le contenu de la brève est dans la balise `<item>`.
+
+* La balise `<title>` est le titre affiché dans le bandeau du menu principal, mais aussi en tant que titre dans l'onglet Brèves.
+* La balise `<link>` est un lien ramenant vers un article de la T2C, en cliquant sur "Lire la Suite" dans l'application.
+* La balise `<description>` est la partie principale, le contenu est formaté en "HTML échappé" (escaped HTML). Elle contient tout ce qui va être affiché dans l'application, par exemple: le texte; les couleurs; les images...
+* La balise `<pubDate>` contient la date de publication de la brève.
+* La balise `<guid>` est l'identifiant unique universel de la brève.
+
+---
+
+### Exemple de formatage:
+
+<h3 align="left">
+  <br>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/breve_exemple1.png?raw=true" width="250px" alt="Image de l'application T2C montrant l'accueil, avec le bandeau montrant des titres des brèves."/>
+  <br>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/breve_exemple2.png?raw=true" width="250px" alt="Image de l'application T2C montrant le menu brèves."/>
+  <br>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/breve_exemple3.png?raw=true" width="250px" alt="Image de l'application T2C montrant une brève custom."/>
+</h3>
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
+  <channel>
+    <title>Brèves</title>
+    <link>
+    https://www.t2c.fr/
+    </link>
+    <description/>
+    <language>fr</language>
+    <item>
+      <title>Titre 1</title>
+      <link>
+      https://www.t2c.fr/
+      </link>
+      <description>
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">111111 at https://www.t2c.fr</guid>
+    </item>
+    <item>
+      <title>Titre 2</title>
+      <link>
+      https://www.t2c.fr/
+      </link>
+      <description>
+	&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+	&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">111112 at https://www.t2c.fr</guid>
+    </item>
+  </channel>
+</rss>
+```
+
+Titres:
+
+`<title>Titre 1</title>`
+
+`<title>Titre 2</title>`
+
+Liens: `<link>https://www.t2c.fr/</link>`
+
+Contenu (en "HTML Échappé"):
+```xml
+<description>
+&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+</description>
+```
+En HTML Classique:
+```html
+<description>
+<span>Lorem ipsum dolor sit amet</span>
+<p>&nbsp;</p>
+<p>Lorem ipsum dolor sit amet, <strong>consectetur adipiscing elit</strong>, <em>sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</em> <span style="text-decoration: underline;">Ut enim ad minim veniam,</span> <strong><span style="color: #ff0000;">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></strong> <a href="https://example.com/">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</a></p>
+</description>
+```
+
+Dates de publication:
+
+`<pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>`
+
+`<pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>`
+
+Identifiants:
+
+`<guid isPermaLink="false">111111 at https://www.t2c.fr</guid>`
+
+`<guid isPermaLink="false">111112 at https://www.t2c.fr</guid>`
