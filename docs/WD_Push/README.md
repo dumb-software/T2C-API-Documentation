@@ -17,24 +17,24 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 
 #### SOAPActions :
 
-| Action                              | Description                                     |
-| :---------------------------------- | :---------------------------------------------- |
-| __AjouteIdentifiant                 ||
-| __ListeIdentifiants                 ||
-| AjouteIdentifiantAndroid            ||
-| AjouteIdentifiantIOS                ||
-| Ajoute_Journal                      ||
-| [DonneVersionReseau](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/DonneVersionReseau.md)                  | Obtenir la dernière version du réseau. |
-| DroitPush                           ||
-| ListeIdentifiantsAndroid            ||
-| ListeIdentifiantsIOS                ||
-| ListePushNotification               ||
-| PageWebAffiche                      ||
-| Retourne_Donnees_Reseau_arret       | Obtenir les informations de chaque Arrêt. |
-| Retourne_Donnees_Reseau_dest        | Obtenir les informations de chaque Destination. |
-| Retourne_Donnees_Reseau_ligne       | Obtenir les informations de chaque Ligne. |
-| Retourne_Donnees_Reseau_ligne_image | Obtenir les images de chaque Ligne.|
-| Retourne_Donnees_Reseau_tarif       | Obtenir les prix et infos de chaque Tarifs. |
+| Action                                                                                                                                                      | Description                                     |
+| :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
+| __AjouteIdentifiant                                                                                                                                         |                                                 |
+| __ListeIdentifiants                                                                                                                                         |                                                 |
+| AjouteIdentifiantAndroid                                                                                                                                    |                                                 |
+| AjouteIdentifiantIOS                                                                                                                                        |                                                 |
+| Ajoute_Journal                                                                                                                                              |                                                 |
+| [DonneVersionReseau](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/DonneVersionReseau.md)                                   | Obtenir la dernière version du réseau.          |
+| DroitPush                                                                                                                                                   |                                                 |
+| ListeIdentifiantsAndroid                                                                                                                                    |                                                 |
+| ListeIdentifiantsIOS                                                                                                                                        |                                                 |
+| ListePushNotification                                                                                                                                       |                                                 |
+| [PageWebAffiche](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/PageWebAffiche.md)                                           | Obtenir une URL inutilisée.                     |
+| [Retourne_Donnees_Reseau_arret](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Retourne_Donnees_Reseau_arret.md)             | Obtenir les informations de chaque Arrêt.       |
+| [Retourne_Donnees_Reseau_dest](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Retourne_Donnees_Reseau_dest.md)               | Obtenir les informations de chaque Destination. |
+| [Retourne_Donnees_Reseau_ligne](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Retourne_Donnees_Reseau_ligne.md)             | Obtenir les informations de chaque Ligne.       |
+| [Retourne_Donnees_Reseau_ligne_image](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Retourne_Donnees_Reseau_ligne_image.md) | Obtenir les images de chaque Ligne.             |
+| [Retourne_Donnees_Reseau_tarif](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/WD_Push/Retourne_Donnees_Reseau_tarif.md)             | Obtenir les prix et infos de chaque Tarifs.     |
 
 ## Avertissement
 >[!CAUTION]
