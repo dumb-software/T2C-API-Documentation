@@ -11,7 +11,7 @@
 | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :------------------- |
 | [OpenIT](https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs/OpenIT)                               | Horaires, Itinéraires, Table des horaires et Prochains passages.| 0% (À documenter)    |
 | [T2C XML](https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs/T2C_XML)                             | Alertes, Brèves, Évenements et Infos Trafic.                    | 93% (Finitions)      |
-| [WinDev Push Server](https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs/WD_Push)                  | Informations du Réseau et Actions Push.                         | 6,25% (À documenter) |
+| [WinDev Push Server](https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs/WD_Push)                  | Informations du Réseau et Actions Push.                         | 43,75% (À documenter) |
 | [Pegase](https://github.com/dumb-software/T2C-API-Documentation/tree/main/docs/pegase)                               | Notifications.                                                  | 100% (Finitions)     |
 
 
