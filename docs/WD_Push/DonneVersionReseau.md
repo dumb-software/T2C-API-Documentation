@@ -1,6 +1,11 @@
 ## T2C Push Server - DonneVersionReseau
 
-Obtenir la dernière version du réseau.
+Obtenir la dernière version du réseau. C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe, si oui elle va executer les actions:
+* Retourne_Donnees_Reseau_arret
+* Retourne_Donnees_Reseau_dest
+* Retourne_Donnees_Reseau_ligne
+* Retourne_Donnees_Reseau_ligne_image
+* Retourne_Donnees_Reseau_tarif
 
 ### Obtenir la version
 
