@@ -22,7 +22,10 @@ Un reste de documentation d'un employé T2C dans l'appli dit:
 > Exemple :
 > Indiquez ici un exemple d'utilisation
 
-### ???
+Théorie:
+Celà affiche un message dans les logs du serveur.
+
+### Afficher un message dans les logs du serveur???
 
 #### URL
 ```
@@ -32,7 +35,7 @@ Un reste de documentation d'un employé T2C dans l'appli dit:
 #### Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/Ajoute_Journal`    | **Requis.** Demande les derniers tarifs au serveur. |
+| `SOAPAction` | `urn:WD_Serveur_Push/Ajoute_Journal`    | **Requis.** Envoyer des logs???. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
 #### Données (Payload):
@@ -41,6 +44,7 @@ Un reste de documentation d'un employé T2C dans l'appli dit:
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Header/>
+		<pTexte>Salut la T2C, passez une bonne journée</pTexte>
   <SOAP-ENV:Body/>
 </SOAP-ENV:Envelope>
 ```
@@ -60,3 +64,5 @@ Un reste de documentation d'un employé T2C dans l'appli dit:
 </SOAP-ENV:Envelope>
 ```
 Peu importe ce qui est mit dans le payload, le serveur ne renvoie jamais de réponse.
+
+~~pas très gentil quand on envoie "passez une bonne journée" :(~~
