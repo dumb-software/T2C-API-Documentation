@@ -12,7 +12,7 @@ Obtenir les informations des destinations du réseau T2C. Cela comprend l'identi
 #### Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/DonneVersionReseau`    | **Requis.** Demande les dernieres destinations au serveur. |
+| `SOAPAction` | `urn:WD_Serveur_Push/Retourne_Donnees_Reseau_dest`    | **Requis.** Demande les dernieres destinations au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
 #### Données (Payload):
