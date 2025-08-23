@@ -12,7 +12,7 @@ Obtenir les informations des tarifs du réseau T2C. Les informations sont affich
 #### Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/DonneVersionReseau`    | **Requis.** Demande les derniers au serveur. |
+| `SOAPAction` | `urn:WD_Serveur_Push/DonneVersionReseau`    | **Requis.** Demande les derniers tarifs au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
 #### Données (Payload):
