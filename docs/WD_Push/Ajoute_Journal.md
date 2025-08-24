@@ -44,7 +44,7 @@ Cela affiche un message dans les logs du serveur.
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Header/>
-		<pTexte>Salut la T2C, passez une bonne journée</pTexte>
+		<ns1:pTexte xmlns:ns1="urn:WD_Serveur_Push">Salut la T2C, passez une bonne journée</ns1:pTexte>
   <SOAP-ENV:Body/>
 </SOAP-ENV:Envelope>
 ```
