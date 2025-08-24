@@ -395,7 +395,7 @@ Pour consulter le guide horaires, &lt;a href="https://www.t2c.fr/votre-trajet/ho
 Attributs du XML Brève:
 
 * Le formatage doit être un minimum correct, sinon le message ne s'affiche pas dans l'application T2C.
-* Le message dans la balise `<description>` doit obligatoirement commencer par une balise <span>, puis un saut de ligne et le message formaté.
+* Le message dans la balise `<description>` doit obligatoirement commencer par une balise `<span>`, puis un saut de ligne et le message formaté.
 * Le contenu de la brève est dans la balise `<item>`.
 
 * La balise `<title>` est le titre affiché dans le bandeau du menu principal, mais aussi en tant que titre dans l'onglet Brèves.
