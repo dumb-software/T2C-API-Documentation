@@ -1,6 +1,6 @@
 <h3 align="center">
   <br>
-  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/xml.png?raw=true" width="550px" alt="WD Push Server Logo"/>
+  <img src="https://github.com/dumb-software/T2C-API-Documentation/blob/main/.github/assets/xml.png?raw=true" width="550px" alt="XML T2C Logo"/>
   <br>
   <h2 align="center">XML T2C</h2>
   <br>
