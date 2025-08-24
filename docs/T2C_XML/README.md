@@ -12,14 +12,14 @@ Les **XML T2C** contiennent toutes les dernières informations du réseau T2C. E
 
 La plupart des XML sont utilisés dans l'application T2C.
 
-#### Notifications :
+#### Endpoints :
 
-| Notifications                                                                                                                                                      | Description                                     |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
-| [alerte](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/alerte.md)               | Messages qui apparaissent au premier-plan lors du lancement de l'application. |
-| [breves](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/breves.md)             | Brèves T2C affichées dans l'onglet "Brèves" et le bandeau d’accueil de l’application.       |
-| [evenements](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/evenements.md) | Dernières actualités T2C affichées dans l'onglet "Actualités" et le bandeau d’accueil de l’application.             |
-| [infos-trafic](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/infos-trafic.md)             | Obtenir les derniers incidents et autres informations.     |
+| Endpoints                                                                                                                           | Description                                                                                             |
+| :---------------------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| [/alerte.xml](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/alerte.md)                              | Message qui apparait au premier-plan lors du lancement de l'application.                                |
+| [/breves.xml](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/breves.md)                              | Informations affichées dans l'onglet "Brèves" et le bandeau déroulant de l’accueil dans l'appli.        |
+| [/evenements.xml](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/evenements.md)                      | Dernières actualités T2C affichées dans l'onglet "Actualités" et "Accueil" de l’application.            |
+| [/infos-trafic.xml](https://github.com/dumb-software/T2C-API-Documentation/blob/main/docs/T2C_XML/infos-trafic.md)                  | Obtenir les derniers incidents et autres informations.                                                  |
 
 ## Avertissement
 >[!CAUTION]
