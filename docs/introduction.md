@@ -7,10 +7,10 @@
 ## Backends
 | Backends                                                                                                             | Description                                                     | Statut                |
 | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [OpenIT](/OpenIT/README.md)                               | Horaires, Itinéraires, Table des horaires et Prochains passages.| 0% (À documenter)     |
-| [T2C XML](/T2C_XML/README.md)                             | Alertes, Brèves, Évenements et Infos Trafic.                    | 93% (Finitions)       |
-| [WinDev Push Server](/WD_Push/README.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter) |
-| [Pegase](/pegase/README.md)                               | Notifications.                                                  | 100%                  |
+| [OpenIT](/OpenIT/readme.md)                               | Horaires, Itinéraires, Table des horaires et Prochains passages.| 0% (À documenter)     |
+| [T2C XML](/T2C_XML/readme.md)                             | Alertes, Brèves, Évenements et Infos Trafic.                    | 93% (Finitions)       |
+| [WinDev Push Server](/WD_Push/readme.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter) |
+| [Pegase](/pegase/readme.md)                               | Notifications.                                                  | 100%                  |
 
 
 
