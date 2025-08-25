@@ -5,7 +5,12 @@ export default defineConfig({
   description: "Documentation non-officielle de l'API T2C",
   base: '/T2C-API-Documentation/',
   head: [
-    ['link', { rel: 'icon', type: 'image/png', href: '/apilogo2.png' }]
+    ['link', { rel: 'icon', type: 'image/png', href: '/apilogo2.png' }],
+    ['meta', { name: 'theme-color', content: '#b74827' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
+    ['meta', { property: 'og:image', content: '/apilogo2.png'}],
+    ['meta', { property: 'og:url', content: 'https://dumb-software.github.io/T2C-API-Documentation/' }],
   ],
   themeConfig: {
     nav: [
