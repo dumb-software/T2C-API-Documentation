@@ -1,8 +1,12 @@
-## T2C XML - infos-trafic.xml
+# T2C XML - Infos-trafic.xml
+
+::: warning WORK IN PROGRESS
+**Cet endpoint n'a pas encore été documenté!**
+:::
 
 Onglet "Infos Trafic" de l'application T2C
 
-### Obtenir les derniers incidents et autres informations
+## Obtenir les derniers incidents et autres informations
 
 #### URL
 ```
@@ -12,7 +16,7 @@ Onglet "Infos Trafic" de l'application T2C
 
 ---
 
-### Exemple de réponse:
+## Exemple de réponse:
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

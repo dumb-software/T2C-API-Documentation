@@ -1,21 +1,25 @@
-## T2C Push Server - Retourne_Donnees_Reseau_arret
+# T2C Push Server - Retourne_Donnees_Reseau_arret
 
-Obtenir les informations des arrêts du réseau T2C. Cela comprend les noms de l'arret, l'identifiant de l'arret, la ville, l'identifiant de la zone, et les supposés "coordonnés GPS" des arrêts (non Clermont n'est toujours pas en Somalie..)
+Obtenir les informations des arrêts du réseau T2C.
 
-### Obtenir les derniers tarifs
+:::info
+Cela comprend les noms de l'arrêt, l'identifiant de l'arrêt, la ville, l'identifiant de la zone, et les supposés "coordonnés GPS" des arrêts *(non Clermont n'est toujours pas en Somalie..)*
+:::
+
+## Obtenir les derniers tarifs
 
 #### URL
 ```
   POST http://push.t2c.fr/WD_PUSH_WEB/awws/WD_Serveur_Push.awws
 ```
 
-#### Headers
+## Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `SOAPAction` | `urn:WD_Serveur_Push/Retourne_Donnees_Reseau_arret`    | **Requis.** Demande les données de tous les arrêts au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
-#### Données (Payload):
+## Données (Payload)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -25,14 +29,10 @@ Obtenir les informations des arrêts du réseau T2C. Cela comprend les noms de l
 </SOAP-ENV:Envelope>
 ```
 
----
+## Exemple de réponse
 
-### Exemple de réponse:
-
-<details>
-  <summary>Cliquez pour voir</summary>
-
-```xml
+:::details Cliquez pour voir la Réponse.
+```xml{8-461}
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -498,12 +498,15 @@ AwA=</Retourne_Donnees_Reseau_arretResult>
 </SOAP-ENV:Envelope>
 
 ```
+:::
 
-</details>
+:::tip IMPORTANT
+Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretResult>`.
 
-Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretResult>`, mais **elles sont encodés en BASE64 puis en GunZip!**
+Mais **elles sont encodés en BASE64 puis en GunZip!**
 
 Pour lire les informations, **nous vous recommendons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()).**
+:::
 
 En decodant l'exemple ci dessus, cela donne:
 ```json

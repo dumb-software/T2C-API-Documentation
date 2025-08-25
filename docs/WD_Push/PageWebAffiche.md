@@ -1,21 +1,23 @@
-## T2C Push Server - PageWebAffiche
+# T2C Push Server - PageWebAffiche
 
-Obtenir une une URL maintenant inutilisé. Potentiellement utilisé pour des evenements.
+Obtenir une une URL maintenant inutilisé.
 
-### Obtenir l'url
+Potentiellement utilisé pour des evenements.
+
+## Obtenir l'URL
 
 #### URL
 ```
   POST http://push.t2c.fr/WD_PUSH_WEB/awws/WD_Serveur_Push.awws
 ```
 
-#### Headers
+## Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `SOAPAction` | `urn:WD_Serveur_Push/PageWebAffiche`    | **Requis.** Demande l'url au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
-#### Données (Payload):
+## Données (Payload)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -25,11 +27,10 @@ Obtenir une une URL maintenant inutilisé. Potentiellement utilisé pour des eve
 </SOAP-ENV:Envelope>
 ```
 
----
+## Exemple de réponse
 
-### Exemple de réponse:
-
-```xml
+:::details Cliquez pour voir la Réponse.
+```xml{8}
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -42,5 +43,6 @@ Obtenir une une URL maintenant inutilisé. Potentiellement utilisé pour des eve
 </SOAP-ENV:Envelope>
 
 ```
+:::
 
 La valeur retournée si dessus est `0;-Jeu Jazz en Tête 2023;-http://92.119.54.135/Page_Web_appli_T2C/`

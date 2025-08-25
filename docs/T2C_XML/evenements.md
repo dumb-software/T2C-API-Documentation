@@ -1,10 +1,14 @@
-## T2C XML - evenements.xml
+# T2C XML - Evenements.xml
+
+::: warning WORK IN PROGRESS
+**Cet endpoint n'a pas encore été documenté!**
+:::
 
 Onglet "Actualités" de l'application T2C.
 
 Les actualités sont aussi affichés dans le menu "Accueil" dans l'application.
 
-### Obtenir les derniers posts de la T2C
+## Obtenir les derniers posts de la T2C
 
 #### URL
 ```
@@ -14,7 +18,7 @@ Les actualités sont aussi affichés dans le menu "Accueil" dans l'application.
 
 ---
 
-### Exemple de réponse:
+## Exemple de réponse
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>

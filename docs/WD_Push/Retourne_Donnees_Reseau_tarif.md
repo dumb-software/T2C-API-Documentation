@@ -1,21 +1,25 @@
-## T2C Push Server - Retourne_Donnees_Reseau_tarif
+# T2C Push Server - Retourne_Donnees_Reseau_tarif
 
-Obtenir les informations des tarifs du réseau T2C. Les informations sont affichés dans l'onglet "Tarifs" de l'application.
+Obtenir les informations des tarifs du réseau T2C.
 
-### Obtenir les derniers tarifs
+::: info
+Les informations sont affichés dans l'onglet "Tarifs" de l'application.
+:::
+
+## Obtenir les derniers tarifs
 
 #### URL
 ```
   POST http://push.t2c.fr/WD_PUSH_WEB/awws/WD_Serveur_Push.awws
 ```
 
-#### Headers
+## Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `SOAPAction` | `urn:WD_Serveur_Push/DonneVersionReseau`    | **Requis.** Demande les derniers tarifs au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
-#### Données (Payload):
+## Données (Payload)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -25,11 +29,10 @@ Obtenir les informations des tarifs du réseau T2C. Les informations sont affich
 </SOAP-ENV:Envelope>
 ```
 
----
+## Exemple de réponse
 
-### Exemple de réponse:
-
-```xml
+:::details Cliquez pour voir la Réponse.
+```xml{8-21}
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope
 	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
@@ -54,10 +57,15 @@ duN+O6iEvf/XopTDK/tQypqr4kH8K4hsWfDzL/e25cBxDAAA</Retourne_Donnees_Reseau_tarifR
 	</SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+:::
 
-Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_tarifResult>`, mais **elles sont encodés en BASE64 puis en GunZip!**
+:::tip IMPORTANT
+Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretResult>`.
+
+Mais **elles sont encodés en BASE64 puis en GunZip!**
 
 Pour lire les informations, **nous vous recommendons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()).**
+:::
 
 En decodant l'exemple ci dessus, cela donne:
 ```json

@@ -1,33 +1,32 @@
-## OpenIT - Timetables
+# OpenIT - Timetables
 
-Obtenir la table des horaires d'un arret.
+Obtenir la table des horaires d'un arrêt.
 
-Cela comprend toutes les lignes associés à l'arret.
+Cela comprend toutes les lignes associés à l'arrêt.
 
-### Obtenir la Table des horaires
+## Obtenir la Table des horaires
 
 #### URL
 ```
   GET https://tr.t2c.openit.ch/timetables?roid=&day=
 ```
-**OU**
+ou
 ```
   GET https://qr.t2c.fr/timetables?roid=&day=
 ```
 
 
-#### Paramètres
+## Paramètres
 | Paramètres   | Description                                 | Exemple                    |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `roid=`      | **Requis.** Identifiant de l'arrêt.         | `roid=3377704015496218`    |
 | `day=`       | **Requis.** Date des horaires               | `day=2025%2d08%2d25`       |
 
-> [!NOTE]
-> Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
+::: info
+Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
+:::
 
----
-
-#### Exemple d'envoi:
+## Exemple d'envoi
 
 ```
   GET https://tr.t2c.openit.ch/timetables?roid=3377704015496218&day=2025%2d08%2d25
@@ -35,9 +34,10 @@ Cela comprend toutes les lignes associés à l'arret.
 
 Ici, nous avons fait la demande de la table d'horaire de l'arret **Sully** pour la date du 25/08/2025.
 
-### Exemple de réponse:
+## Exemple de réponse
 
-```xml
+:::details Cliquez pour voir la Réponse.
+```xml{9}
 5;14;11821953316814893;1970329131942174
 5;55;11821953316814893;1970329131942181
 6;23;11821953316814888;1970329131941998
@@ -108,13 +108,13 @@ Ici, nous avons fait la demande de la table d'horaire de l'arret **Sully** pour 
 20;35;11821953316814888;1970329131941998
 21;15;11821953316814893;1970329131942183
 ```
-
+:::
 La réponse est simple à comprendre, voici un exemple d'un horaire:
-`7;35;11821953316814893;1970329131942174`
+```
+7;35;11821953316814893;1970329131942174
+```
 
 Elle est formaté comme ci:
-`HEURE;MINUTE;IDENTIFIANT LIGNE; IDENTIFIANT DESTINATION`
+`HEURE ; MINUTE ; IDENTIFIANT LIGNE ; IDENTIFIANT DESTINATION`
 
-Donc,
-* À 7h35
-* Le véhicule de la ligne 9, destination Brézet arrive à l'arret Sully.
+Donc, le véhicule de la **Ligne 9** (`11821953316814893`), **destination Brézet** (`1970329131942174`) arrive à **l'arrêt Sully** (`3377704015496218`) à **7h35** (`7;35`).

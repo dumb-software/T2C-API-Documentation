@@ -1,26 +1,32 @@
-## T2C Push Server - DonneVersionReseau
+# T2C Push Server - DonneVersionReseau
 
-Obtenir la dernière version du réseau. C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe, si oui elle va executer les actions:
-* Retourne_Donnees_Reseau_arret
-* Retourne_Donnees_Reseau_dest
-* Retourne_Donnees_Reseau_ligne
-* Retourne_Donnees_Reseau_ligne_image
-* Retourne_Donnees_Reseau_tarif
+Obtenir la dernière version du réseau.
 
-### Obtenir la version
+::: info
+C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe.
+
+Si oui elle va executer les actions:
+* [Retourne_Donnees_Reseau_arret](/WD_Push/Retourne_Donnees_Reseau_arret.md)
+* [Retourne_Donnees_Reseau_dest](/WD_Push/Retourne_Donnees_Reseau_dest.md)
+* [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md)
+* [Retourne_Donnees_Reseau_ligne_image](/WD_Push/Retourne_Donnees_Reseau_ligne_image.md)
+* [Retourne_Donnees_Reseau_tarif](/WD_Push/Retourne_Donnees_Reseau_tarif.md)
+:::
+
+## Obtenir la version
 
 #### URL
 ```
   POST http://push.t2c.fr/WD_PUSH_WEB/awws/WD_Serveur_Push.awws
 ```
 
-#### Headers
+## Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `SOAPAction` | `urn:WD_Serveur_Push/DonneVersionReseau`    | **Requis.** Demande la version du réseau au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
-#### Données (Payload):
+## Données (Payload)
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -30,11 +36,10 @@ Obtenir la dernière version du réseau. C'est la première action que l'appli e
 </SOAP-ENV:Envelope>
 ```
 
----
+## Exemple de réponse
 
-### Exemple de réponse:
-
-```xml
+:::details Cliquez pour voir la Réponse.
+```xml{5}
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
   <SOAP-ENV:Header/>
@@ -43,3 +48,6 @@ Obtenir la dernière version du réseau. C'est la première action que l'appli e
   </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+:::
+
+Ici, le serveur renvoie le numéro de Version du Réseau, qui est `84`.
