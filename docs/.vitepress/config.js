@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "T2C API Documentation",
   description: "Documentation non-officielle de l'API T2C",
+  base: '/T2C-API-Documentation/',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/apilogo2.png' }]
   ],
