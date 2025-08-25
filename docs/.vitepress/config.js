@@ -9,7 +9,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#9c3535' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
-    ['meta', { property: 'og:image', content: '/apilogo2.png'}],
+    ['meta', { property: 'og:image', content: '/T2C-API-Documentation/apilogo2.png'}],
     ['meta', { property: 'og:url', content: 'https://dumb-software.github.io/T2C-API-Documentation/' }],
   ],
   themeConfig: {
