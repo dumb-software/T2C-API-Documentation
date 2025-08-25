@@ -6,7 +6,7 @@ export default defineConfig({
   base: '/T2C-API-Documentation/',
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/apilogo2.png' }],
-    ['meta', { name: 'theme-color', content: '#b74827' }],
+    ['meta', { name: 'theme-color', content: '#9c3535' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
     ['meta', { property: 'og:image', content: '/apilogo2.png'}],
