@@ -169,7 +169,7 @@ Titres: `<title>Squeezie</title>` et `<title>Cyprien</title>`
 Liens: `<link>https://youtube.com/@Squeezie</link>` et `<link>https://youtube.com/@cyprien</link>`
 
 <details>
-  <summary>Contenu de l'évènement': (cliquez)</summary>
+  <summary>Contenu de l'évènement: (cliquez)</summary>
 
 ::: info Contenu (formaté en "HTML Échappé"):
 ```xml
@@ -197,6 +197,6 @@ Dates de publication: `<pubDate>Thu, 23 Nov 2025 16:10:02 +0000</pubDate>`
 
 Identifiants:
 
-<guid isPermaLink="false">333333 at https://www.t2c.fr</guid>
+`<guid isPermaLink="false">333333 at https://www.t2c.fr</guid>`
 
-<guid isPermaLink="false">333334 at https://www.t2c.fr</guid>
+`<guid isPermaLink="false">333334 at https://www.t2c.fr</guid>`
