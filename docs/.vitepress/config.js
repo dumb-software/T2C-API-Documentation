@@ -4,6 +4,7 @@ export default defineConfig({
   title: "T2C API Documentation",
   description: "Documentation non-officielle de l'API T2C",
   base: '/T2C-API-Documentation/',
+  sitemap: { hostname: 'https://dumb-software.github.io/T2C-API-Documentation/' },
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/T2C-API-Documentation/apilogo2.png' }],
     ['meta', { name: 'theme-color', content: '#9c3535' }],
