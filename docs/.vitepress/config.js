@@ -12,6 +12,7 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
     ['meta', { property: 'og:image', content: '/T2C-API-Documentation/apilogo2.png'}],
     ['meta', { property: 'og:url', content: 'https://dumb-software.github.io/T2C-API-Documentation/' }],
+    ['meta', { name: 'google-site-verification', content: 'XVCEArdPRAwzn5EyP6qS89xwwPJjR7AGCMdQODkZKaM' }],
   ],
   themeConfig: {
     nav: [
