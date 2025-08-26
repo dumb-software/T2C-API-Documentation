@@ -405,7 +405,7 @@ Pour consulter le guide horaires, &lt;a href="https://www.t2c.fr/votre-trajet/ho
 ## Exemple de formatage
 
 :::details Cliquez pour voir le formatage.
-```xml
+```xml{10-41}
 <?xml version="1.0" encoding="utf-8"?>
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
   <channel>
