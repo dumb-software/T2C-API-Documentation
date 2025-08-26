@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://dumb-software.github.io/T2C-API-Documentation/sitemap.xml
