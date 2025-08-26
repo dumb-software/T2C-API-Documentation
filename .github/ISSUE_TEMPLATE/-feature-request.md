@@ -3,8 +3,9 @@ name: "!Feature request"
 about: Suggest an idea for this project
 title: "[SUGGESTION]"
 labels: amélioration, documentation
-assignees: LariVille
-
+assignees: 
+  - LariVille
+  - MicheDePainn
 ---
 
 **Is your feature request related to a problem? Please describe.**

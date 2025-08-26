@@ -3,8 +3,9 @@ name: "!Bug report"
 about: Create a report to help us improve
 title: "[BUG]"
 labels: erreur/bug
-assignees: LariVille
-
+assignees: 
+  - LariVille
+  - MicheDePainn
 ---
 
 **Describe the bug**

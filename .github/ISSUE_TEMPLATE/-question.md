@@ -3,8 +3,9 @@ name: "!Question"
 about: Ask your questions here
 title: "[QUESTION]"
 labels: question
-assignees: LariVille
-
+assignees: 
+  - LariVille
+  - MicheDePainn
 ---
 
 **Ask your question here**
