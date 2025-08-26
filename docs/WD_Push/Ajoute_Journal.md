@@ -9,20 +9,14 @@
 Mais on a une théorie:
 Cela affiche un message dans les logs du serveur.
 
-:::details Un reste de documentation d'un employé T2C dans l'appli dit:
-Résumé : <indiquez ici ce que fait la procédure>
- 
-Syntaxe :
-Ajoute_Journal (`<pTexte>` est chaîne)
+:::details Une reconstruction de l'Action dit:
 
 Paramètres :
-pTexte (chaîne ANSI) : <indiquez ici le rôle de pTexte>
+pTexte (chaîne en ANSI)
 
 Valeur de retour :
-Aucune
+Aucun
 
-Exemple :
-Indiquez ici un exemple d'utilisation
 :::
 
 ## Afficher un message dans les logs du serveur???
