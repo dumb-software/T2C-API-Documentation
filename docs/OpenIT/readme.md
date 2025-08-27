@@ -12,7 +12,7 @@
 
 Dans le cas de la T2C, c'est **OpenIT** qui gère la backend des horaires (et c'est probablement eux qui ont aidé a créer l'appli T2C).
 
-Le serveur d'horaires utilisé est une version modifiée du projet Open-Source [SYNTHESE par RCS Mobility](https://git.openit.ch/rcsmobility/synthese).
+Le serveur d'horaires utilisé est le projet Open-Source [SYNTHESE](https://git.openit.ch/rcsmobility/synthese).
 
 Leur serveur est disponible sur 2 endpoints connus: `tr.t2c.openit.ch` et `qr.t2c.fr`.
 
