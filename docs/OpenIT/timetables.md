@@ -32,7 +32,7 @@ Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
   GET https://tr.t2c.openit.ch/timetables?roid=3377704015496218&day=2025%2d08%2d25
 ```
 
-Ici, nous avons fait la demande de la table d'horaire de l'arret **Sully** pour la date du 25/08/2025.
+Ici, nous avons fait la demande de la table d'horaire de l'arrêt **Sully** pour la date du 25/08/2025.
 
 ## Exemple de réponse
 

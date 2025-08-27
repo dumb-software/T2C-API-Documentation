@@ -1,7 +1,7 @@
 # T2C XML - Infos-trafic.xml
 
 ::: warning WORK IN PROGRESS
-**Cet endpoint n'a pas encore été documenté!**
+**Cet endpoint est en cours de documentation!**
 :::
 
 Onglet "Infos Trafic" de l'application T2C
