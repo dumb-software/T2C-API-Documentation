@@ -17,9 +17,12 @@ Le serveur d'horaires utilisé est le projet Open-Source [SYNTHESE](https://git.
 Leur serveur est disponible sur 2 endpoints connus: `tr.t2c.openit.ch` et `qr.t2c.fr`.
 
 ## Endpoints
-::: warning
-**WORK IN PROGRESS**
-:::
+
+| Endpoint                                  | Description                                                  |
+| :---------------------------------------- | :----------------------------------------------------------- |
+| [timetables](/OpenIT/timetables.md)       | Obtenir la table des horaires d'un arrêt.                    |
+| [prochainsDeparts](/OpenIT/timetables.md) | Obtenir le temps restant d'attente d'un arrêt.               |
+| schedules                                 | Calculer un itinéraire.                                      |
 
 ## Avertissement
 ::: danger Avertissement Légal
