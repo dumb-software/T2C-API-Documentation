@@ -18,7 +18,7 @@ hero:
 
 features:
   - title: OpenIT
-    details: Horaires, Itinéraires, Table des horaires et Prochains passages
+    details: Table des Horaires, Prochains passages et Itinéraires
     link : '/OpenIT/readme'
     icon: |
         <svg xmlns="http://www.w3.org/2000/svg"
