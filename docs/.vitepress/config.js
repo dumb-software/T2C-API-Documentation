@@ -52,6 +52,7 @@ export default defineConfig({
           items: [
             { text: 'Informations', link: '/OpenIT/readme' },
             { text: 'Timetables', link: '/OpenIT/timetables' },
+            { text: 'Prochains Departs', link: '/OpenIT/prochainsDeparts' },
           ],
         },
         {
