@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/pegase.png" width="550px" alt="Pegase logo"/>
   <br>
-  <b>Pegase Server</b>
+  <h1>Pegase Server</h1>
 </div>
 
 ## Présentation
