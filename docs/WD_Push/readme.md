@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/push.png" width="550px" alt="WD Push Server Logo"/>
   <br>
-  <b>WD Push Server</b>
+  <h1>WD Push Server</h1>
 </div>
 
 ## Présentation
