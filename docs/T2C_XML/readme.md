@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/xml.png" width="550px" alt="XML T2C Logo"/>
   <br>
-  <b>XML T2C</b>
+  <h1>XML T2C</h1>
 </div>
 
 ## Présentation
