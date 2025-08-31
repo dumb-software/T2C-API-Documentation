@@ -23,7 +23,7 @@ Leur serveur est disponible sur 2 endpoints connus: `tr.t2c.openit.ch` et `qr.t2
 | Endpoint                                  | Description                                                  |
 | :---------------------------------------- | :----------------------------------------------------------- |
 | [timetables](/OpenIT/timetables.md)       | Obtenir la table des horaires d'un arrêt.                    |
-| [prochainsDeparts](/OpenIT/timetables.md) | Obtenir le temps restant d'attente d'un arrêt.               |
+| [prochainsDeparts](/OpenIT/prochainsDeparts.md) | Obtenir le temps restant d'attente d'un arrêt.               |
 | [schedules](/OpenIT/schedules.md)         | Calculer un itinéraire.                                      |
 
 ## Avertissement
