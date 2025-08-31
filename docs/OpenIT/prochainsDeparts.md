@@ -1,9 +1,5 @@
 # OpenIT - ProchainsDeparts
 
-::: warning WORK IN PROGRESS
-**Cet endpoint est en cours de documentation!**
-:::
-
 Obtenir le temps restant d'attente d'un arrêt.
 
 Contient aussi d'autres informations sur le trajet, comme l'heure d'arrivée, un compte a rebours, si il est annulé, accès handicapé disponible...
@@ -142,10 +138,10 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 
 **La balise `<journey>`:**
 * `routeId=` correspond à l'identifiant de la route.
-* `arrivalDateTime=` *inutilisé???*
-* `plannedArrivalDateTime=` *inutilisé???*
 * `dateTime=` correspond à l'heure de l'arrivée du véhicule.
 * `plannedDateTime=` correspond à l'heure de l'arrivée du véhicule (approximatif).
+* `arrivalDateTime=` *inutilisé?*
+* `plannedArrivalDateTime=` *inutilisé?*
 * `id=` *identifiant du depart?*
 * `is_canceled=` indique si le depart est annulé.
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
@@ -158,3 +154,36 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 * `operatorCode=` *inutilisé???*
 * `name=` correspond au nom de l'arrêt.
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
+
+**La balise `<line>`:**
+* `id=` correspond à l'identifiant de la Ligne.
+* `creatorId=` *???*
+* `name=` correspond au nom complet de la Ligne.
+* `shortName=` correspond au nom "court" de la Ligne.
+* `shortName=` correspond au nom "long" de la Ligne.
+* `color=` correspond à la couleur associé à la Ligne. (formaté en RGB)
+* `xmlColor=` correspond à la couleur associé à la Ligne. (formaté en Hex)
+* `foregroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en RGB)
+* `xmlForegroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en Hex)
+* `style=` correspond au nom simple attribué à la couleur de la Ligne.
+* `image=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md))
+* `direction=` correspond à la direction du Trajet.
+* `wayback=` définit si la direction est une sous-destination. (Une sous-destination est affichée comme destination secondaire, pas comme "Direction".)
+* `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
+
+**La balise `<origin>`:**
+* `id=` correspond à un identifiant de zone.
+* `name=` correspond au nom de l'arrêt du point de départ du trajet.
+* `cityName=` correspond au nom de la ville.
+
+**La balise `<destination>`:**
+* `id=` correspond à un identifiant de zone.
+* `name=` correspond au nom de l'arrêt du terminus du trajet.
+* `cityName=` correspond au nom de la ville.
+
+**La balise `<stopArea>`:**
+* `id=` correspond à un identifiant de zone.
+* `name=` correspond au nom de l'arrêt sélectionné.
+* `cityId=` correspond à l'identifiant de la ville.
+* `cityName=` correspond au nom de la ville.
+* `directionAlias=` correspond au nom alternatif de la destination.
