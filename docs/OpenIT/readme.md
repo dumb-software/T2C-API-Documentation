@@ -1,4 +1,6 @@
 <div align="center">
+  <img src="/openit.png" width="550px" alt="OpenIT logo"/>
+  <br>
   <h1>OpenIT</h1>
 </div>
 
