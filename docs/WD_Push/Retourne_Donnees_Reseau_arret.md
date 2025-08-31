@@ -3,7 +3,9 @@
 Obtenir les informations des arrêts du réseau T2C.
 
 :::info
-Cela comprend les noms de l'arrêt, l'identifiant de l'arrêt, la ville, l'identifiant de la zone, et les supposés "coordonnés GPS" des arrêts *(non Clermont n'est toujours pas en Somalie..)*
+Cela comprend les noms de l'arrêt, l'identifiant de l'arrêt, la ville, l'identifiant de la zone, et les coordonnés GPS des arrêts.
+
+Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Obtenir les derniers tarifs

@@ -3,7 +3,9 @@
 Obtenir les informations des Lignes du réseau T2C. 
 
 :::info
-Cela contient les noms, l'identifiant des Lignes, les noms d'images associés à `Retourne_Donnees_Reseau_ligne_image` et les supposées coordonnées GPS des arrêts (on est plutot dans de la Somalie en Afrique qu'un Clermont-Ferrand mais bon...)
+Cela contient les noms, l'identifiant des Lignes, les noms d'images associés à `Retourne_Donnees_Reseau_ligne_image` et les coordonnées GPS des arrêts.
+
+Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Obtenir les derniers tarifs
