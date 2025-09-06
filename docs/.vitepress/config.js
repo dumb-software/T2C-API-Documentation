@@ -93,11 +93,5 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-
-    markdown: {
-      image: {
-        lazyLoading: true
-      },
-    },
   },
 })
