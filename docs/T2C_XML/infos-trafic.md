@@ -16,7 +16,7 @@ Les infos trafic sont le contenu affiché dans l'onglet "Infos-Trafic" de l'appl
 ## Exemple de réponse:
 
 :::details Cliquez pour voir la Réponse.
-```xml{8-1026}
+```xml{8-1044}
 <?xml version="1.0" encoding="utf-8"?>
 <rss
 	xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
@@ -1176,7 +1176,7 @@ Lignes:
 ```
 
 <details>
-  <summary>Contenu de la Brève: (cliquez)</summary>
+  <summary>Contenu de l'info: (cliquez)</summary>
 
 ::: info Contenu (formaté en "HTML Échappé"):
 ```xml
