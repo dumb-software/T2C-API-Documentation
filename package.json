@@ -1,6 +1,6 @@
 {
-  "name": "website_docu",
-  "version": "1.0.0",
+  "name": "t2c-api-documentation",
+  "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "scripts": {
