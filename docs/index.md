@@ -13,6 +13,9 @@ hero:
       text: Introduction
       link: /introduction
     - theme: alt
+      text: Dumb-software
+      link: /dumb-software
+    - theme: alt
       text: GitHub
       link: https://github.com/dumb-software/T2C-API-Documentation
 
