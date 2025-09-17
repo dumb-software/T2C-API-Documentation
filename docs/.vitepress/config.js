@@ -18,6 +18,7 @@ export default defineConfig({
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Introduction', link: '/introduction' },
+      { text: 'Dumb-software', link: '/dumb-software' },
       {
         text: 'Backends',
         items: [
@@ -44,6 +45,7 @@ export default defineConfig({
           text: "Documentation",
           items: [
             { text: 'Introduction', link: '/introduction' },
+            { text: 'Dumb-software', link: '/dumb-software'}
           ],
         },
         {
