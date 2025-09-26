@@ -29,6 +29,7 @@ ou
 | `dpt=`                    | **Requis.** Nom du départ                                               | `dpt=Sully%20Clermont-Ferrand` |
 | `apt=`                    | **Requis.** Nom de l'arrivée                                            | `apt=Jaude%20Clermont-Ferrand` |
 | `arrival_class_filter=`   | **Recommandé.** Type d'arrivée (arrêt, adresse, points d'intérêt...)    | `arrival_class_filter=stop`    |
+| `&departure_place_XY=`    | **Recommandé** Coordonnées GPS de l'utilisateur en tant que départ.     |                                |
 
 
 ::: info
