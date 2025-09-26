@@ -1,6 +1,6 @@
 # T2C Push Server - PageWebAffiche
 
-Obtenir une une URL maintenant inutilisé.
+Obtenir une URL maintenant inutilisé.
 
 Potentiellement utilisé pour des evenements.
 
