@@ -23,7 +23,7 @@ ou
 | Paramètres                | Description                                                             | Exemple                        |
 | :------------------------ | :---------------------------------------------------------------------- | :----------------------------- |
 | `dy=`                     | **Recommandé.** Date de départ.                                         | `dy=2025%2d08%2d24`            |
-| `md=`                     | **Optionnel.** "Coresspondance"???                                      | `md=3`                         |
+| `md=`                     | **Optionnel.** "Correspondance"???                                      | `md=3`                         |
 | `pi=`                     | **Optionnel.** "Quand"???                                               | `pi=0`                         |
 | `departure_class_filter=` | **Recommandé.** Type de départ (arrêt, adresse, points d'intérêt...)    | `departure_class_filter=stop`  |
 | `dpt=`                    | **Requis.** Nom du départ                                               | `dpt=Sully%20Clermont-Ferrand` |
