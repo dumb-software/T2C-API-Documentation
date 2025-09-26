@@ -23,13 +23,14 @@ ou
 | Paramètres                | Description                                                             | Exemple                        |
 | :------------------------ | :---------------------------------------------------------------------- | :----------------------------- |
 | `dy=`                     | **Recommandé.** Date de départ.                                         | `dy=2025%2d08%2d24`            |
-| `md=`                     | **Optionnel.** ???                                                      | `md=3`                         |
-| `pi=`                     | **Optionnel.** ???                                                      | `pi=0`                         |
+| `md=`                     | **Optionnel.** "Coresspondance"???                                      | `md=3`                         |
+| `pi=`                     | **Optionnel.** "Quand"???                                               | `pi=0`                         |
 | `departure_class_filter=` | **Recommandé.** Type de départ (arrêt, adresse, points d'intérêt...)    | `departure_class_filter=stop`  |
 | `dpt=`                    | **Requis.** Nom du départ                                               | `dpt=Sully%20Clermont-Ferrand` |
 | `apt=`                    | **Requis.** Nom de l'arrivée                                            | `apt=Jaude%20Clermont-Ferrand` |
 | `arrival_class_filter=`   | **Recommandé.** Type d'arrivée (arrêt, adresse, points d'intérêt...)    | `arrival_class_filter=stop`    |
-| `&departure_place_XY=`    | **Recommandé** Coordonnées GPS de l'utilisateur en tant que départ.     |                                |
+| `&departure_place_XY=`    | **Recommandé.** Coordonnées GPS de l'utilisateur en tant que départ.    |                                |
+| `&arrival_place_XY=`      | **Recommandé.** Coordonnées GPS d'une arrivée (ex: route)               |                                |
 
 
 ::: info
