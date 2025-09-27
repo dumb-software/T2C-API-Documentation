@@ -23,7 +23,7 @@ ou
 | `day=`       | **Requis.** Date des horaires               | `day=2025%2d08%2d25`       |
 
 ::: info
-Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
+Le `%2d` dans les paramètres de la date correspond à un **TIRET**.
 :::
 
 ## Exemple d'envoi

@@ -35,7 +35,7 @@ ou
 
 
 ::: info
-Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
+Le `%20` dans les paramètres de la date correspond à un **ESPACE**.
 
 Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
