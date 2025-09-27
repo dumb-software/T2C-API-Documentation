@@ -20,22 +20,24 @@ ou
 
 
 ## Paramètres
-| Paramètres                | Description                                                             | Exemple                        |
-| :------------------------ | :---------------------------------------------------------------------- | :----------------------------- |
-| `dy=`                     | **Recommandé.** Date de départ.                                         | `dy=2025%2d08%2d24`            |
-| `md=`                     | **Optionnel.** Coche "Sans Correspondace"???                            | `md=3`                         |
-| `pi=`                     | **Optionnel.** "Quand"???                                               | `pi=0`                         |
-| `ac=`                     | **Optionnel.** Coche "Personne à Mobilité Réduite"                      | `ac=on`                        |
-| `departure_class_filter=` | **Recommandé.** Type de départ (arrêt, adresse, points d'intérêt...)    | `departure_class_filter=stop`  |
-| `dpt=`                    | **Requis.** Nom du départ                                               | `dpt=Sully%20Clermont-Ferrand` |
-| `apt=`                    | **Requis.** Nom de l'arrivée                                            | `apt=Jaude%20Clermont-Ferrand` |
-| `arrival_class_filter=`   | **Recommandé.** Type d'arrivée (arrêt, adresse, points d'intérêt...)    | `arrival_class_filter=stop`    |
-| `&departure_place_XY=`    | **Recommandé.** Coordonnées GPS de l'utilisateur en tant que départ.    |                                |
-| `&arrival_place_XY=`      | **Recommandé.** Coordonnées GPS d'une arrivée (ex: route)               |                                |
+| Paramètres                | Description                                                                                               | Exemple                        |
+| :------------------------ | :-------------------------------------------------------------------------------------------------------- | :----------------------------- |
+| `dy=`                     | **Recommandé.** Date de départ.                                                                           | `dy=2025-08-24`                |
+| `md=`                     | **Optionnel.** Coche "Sans Correspondance" `(0 = On; 3 = Off)`                                            | `md=3`                         |
+| `pi=`                     | **Optionnel.** Filtre du temps de la journée. `(0 = Journée; 1 = Matin; 2 = Midi; 3= Après-Midi; 4=Soir)` | `pi=0`                         |
+| `ac=`                     | **Optionnel.** Coche "Personne à Mobilité Réduite"                                                        | `ac=on`                        |
+| `departure_class_filter=` | **Recommandé.** Type de départ (arrêt, adresse, points d'intérêt...)                                      | `departure_class_filter=stop`  |
+| `dpt=`                    | **Requis.** Nom du départ                                                                                 | `dpt=Sully%20Clermont-Ferrand` |
+| `apt=`                    | **Requis.** Nom de l'arrivée                                                                              | `apt=Jaude%20Clermont-Ferrand` |
+| `arrival_class_filter=`   | **Recommandé.** Type d'arrivée (arrêt, adresse, points d'intérêt...)                                      | `arrival_class_filter=stop`    |
+| `&departure_place_XY=`    | **Recommandé.** Coordonnées GPS de l'utilisateur en tant que départ.              | `departure_place_XY=3.08521321498191,45.7878962543636` |
+| `&arrival_place_XY=`      | **Recommandé.** Coordonnées GPS d'une arrivée (ex: route)                         | `arrival_place_XY=3.08521321498191,45.7878962543636`   |
 
 
 ::: info
 Le `%2d` dans les paramètres de la date correspond à un **ESPACE**.
+
+Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Exemple d'envoi
