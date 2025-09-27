@@ -4,6 +4,10 @@
   <h1>WD Push Server</h1>
 </div>
 
+::: warning WORK IN PROGRESS
+**Ce serveur est en cours de documentation!**
+:::
+
 ## Présentation
 
 **WinDev Push Server** est une backend principalement utilisée pour executer des actions, elle est utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)

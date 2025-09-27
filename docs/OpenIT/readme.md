@@ -4,10 +4,6 @@
   <h1>OpenIT</h1>
 </div>
 
-::: warning WORK IN PROGRESS
-**Ce serveur est en cours de documentation!**
-:::
-
 ## Présentation
 
 **Movi OpenIT** est une compagnie spécialisée dans la digitalisation de la mobilité.
