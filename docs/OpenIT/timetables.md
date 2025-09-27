@@ -20,7 +20,7 @@ ou
 | Paramètres   | Description                                 | Exemple                    |
 | :----------- | :------------------------------------------ | :------------------------- |
 | `roid=`      | **Requis.** Identifiant de l'arrêt.         | `roid=3377704015496218`    |
-| `day=`       | **Requis.** Date des horaires               | `day=2025%2d08%2d25`       |
+| `day=`       | **Requis.** Date des horaires               | `day=2025-08-25`           |
 
 ::: info
 Le `%2d` dans les paramètres de la date correspond à un **TIRET**.
