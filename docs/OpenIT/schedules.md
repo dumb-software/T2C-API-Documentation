@@ -5138,14 +5138,14 @@ Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme
 * `pertarr=` indique si il y'a des perturbations à l'arrêt d'arrivée.
 
 **La balise `<leg>`:**
-* `ill=` indique le leg final (va afficher "vous arrivez à votre destination...")
+* `ill=` ???
 * `fdt=` heure de départ d'un véhicule d'une Ligne.
 * `fat=` heure théorique d'arrivée du véhicule de la Ligne.
 * `dsn=` nom de l'arrêt où l'utilisateur doit attendre le véhicule.
 * `asn=` nom de l'arrêt où l'utilisateur doit descendre du véhicule.
 * `dlo=` correspond aux coordonnés GPS de la longitude de l'arrêt de départ.
 * `dla=` correspond aux coordonnés GPS de la latitude de l'arrêt de départ.
-* `ia=` indique si un débarquement est requis. ("descendez à l'arrêt...")
+* `ia=` indique si un embarquement ou un débarquement est requis???
 * `alo=` correspond aux coordonnés GPS de la longitude de l'arrêt d'arrivée.
 * `ala=` correspond aux coordonnés GPS de la latitude de l'arrêt d'arrivée.
 * `it=` ???
@@ -5157,8 +5157,8 @@ Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme
 * `lc=` correspond à la couleur associé à la Ligne. (formaté en RGB)
 * `w=` représente le tracé du parcours d'une Ligne sur la Carte de l'itinéraire. (Longitude, Latitude)
 * `dn=` indique le nom de la destination de la Ligne.
-* `rn=` indique le nom d'une rue à suivre.
-* `l=` indique sur combien de mètres il faut suivre cette rue.
+* `rn=` ???
+* `l=` ???
 * `pertdep=` indique si il y'a des perturbations à l'arrêt de départ.
 * `pertarr=` indique si il y'a des perturbations à l'arrêt d'arrivée.
 
