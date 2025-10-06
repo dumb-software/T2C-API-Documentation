@@ -13,6 +13,8 @@ Dans le cas de la T2C, c'est **OpenIT** qui gère la backend des horaires (et c'
 Le serveur d'horaires utilisé est le projet Open-Source [SYNTHESE](https://git.openit.ch/rcsmobility/synthese).
 
 Leur serveur est disponible sur 2 instances connues: `tr.t2c.openit.ch` et `qr.t2c.fr`.
+
+
 ::: warning IMPORTANT
 Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 
@@ -20,6 +22,7 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 
 * `http://t2c-prod.rcsmobility.com/synthese`
 :::
+
 
 ## Endpoints
 
