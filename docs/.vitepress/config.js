@@ -15,7 +15,7 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#9c3535' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
-    ['meta', { property: 'og:image', content: 'https://dumb-software.github.io/T2C-API-Documentation/favicon.svg'}],
+    ['meta', { property: 'og:image', content: 'https://dumb-software.github.io/T2C-API-Documentation/favicon.png'}],
     ['meta', { property: 'og:url', content: 'https://dumb-software.github.io/T2C-API-Documentation/' }],
     ['meta', { name: 'google-site-verification', content: 'XVCEArdPRAwzn5EyP6qS89xwwPJjR7AGCMdQODkZKaM' }],
   ],
