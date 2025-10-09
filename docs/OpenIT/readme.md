@@ -8,7 +8,7 @@
 
 **Movi OpenIT** est une compagnie spécialisée dans la digitalisation de la mobilité.
 
-Dans le cas de la T2C, c'est **OpenIT** qui gère la backend des horaires (et c'est probablement eux qui ont aidé a créer l'appli T2C).
+Dans le cas de la T2C, c'est **OpenIT** qui gère la backend des horaires.
 
 Le serveur d'horaires utilisé est le projet Open-Source [SYNTHESE](https://git.openit.ch/rcsmobility/synthese).
 
