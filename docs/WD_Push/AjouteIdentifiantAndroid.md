@@ -20,7 +20,7 @@ Cette action permet d'ajouter son identifiant FCM pour que le Serveur Push nous 
 ## Headers
 | Paramètres     | Contenu                                           | Description                                          |
 | :------------- | :------------------------------------------------ | :--------------------------------------------------- |
-| `SOAPAction`   | `urn:WD_Serveur_Push/AjouteIdentifiantAndroid`    | **Requis.** Ajouter son identifiant. |
+| `SOAPAction`   | `urn:WD_Serveur_Push/AjouteIdentifiantAndroid`    | **Requis.** Ajouter son identifiant.                 |
 | `Content-Type` | `text/xml; charset=utf-8`                         | **Recommandé.** Type de contenu à envoyer.           |
 
 ## Données (Payload)
@@ -29,14 +29,23 @@ Cette action permet d'ajouter son identifiant FCM pour que le Serveur Push nous 
 <?xml version="1.0" encoding="UTF-8"?>
 <SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SOAP-ENV:Header/>
-    <ns1:Liste_param xmlns:ns1="urn:WD_Serveur_Push">[IDENTIFIANT_FCM]</ns1:Liste_param>
-        <ns1:idUniqueAndroid xmlns:ns1="urn:WD_Serveur_Push">[ANDROID_ID]</ns1:idUniqueAndroid>
+  <SOAP-ENV:Body>
+    <ns1:bufIdentifiant xmlns:ns1="urn:WD_Serveur_Push">
+		[TOKEN FCM]
+    </ns1:bufIdentifiant>
+    <ns1:idUniqueAndroid xmlns:ns1="urn:WD_Serveur_Push">[ID ANDROID]</ns1:idUniqueAndroid>
     <ns1:sInfoPerso xmlns:ns1="urn:WD_Serveur_Push">1	1	1	1	1</ns1:sInfoPerso>
-  <SOAP-ENV:Body/>
+  </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
 
-**WIP: PLUS D'INFOS SUR `sInfoPerso`** 
+| Paramètres               | Exemple                                           | Description                                          |
+| :----------------------- | :------------------------------------------------ | :--------------------------------------------------- |
+| `<ns1:bufIdentifiant>`   | `ZGRzbFFVMTRTYzZURGJpWTd2R05OUTpBUEE5MWJINVlsX3JKS0tnc0VraW5XbGhMWlh5TTVm&#13;Ti12LWhSbjA5T0JPMkJqQks5YTZEYlAtMUFwcVRZTEZvRTZuYjZKcmNyQzRjNzNJbEdrTVFJ&#13;eDRrUEJ6bXJ1bGR5bUd5V1U2dmpJM05ZVkF6azV3OGJyYw==` | **Requis.** [Token Firebase Cloud Messaging.](https://overflow.canine.tools/questions/37671380/what-is-fcm-token-in-firebase#37671576) |
+| `<ns1:idUniqueAndroid>`  | `a1b2c3d4e5f67890` | **Requis.** [Identifiant Android.](https://developer.android.com/reference/android/provider/Settings.Secure.html#ANDROID_ID) |
+| `<ns1:sInfoPerso>`       | `1	1	1	0	0	Ligne A;` | Paramètres de Canal. |
+
+**WIP: INFOS CANAL**
 
 ## Exemple de réponse
 

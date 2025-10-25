@@ -2,7 +2,7 @@
 
 Obtenir une URL maintenant inutilisé.
 
-Potentiellement utilisé pour des evenements.
+Potentiellement utilisé pour des évènements.
 
 ## Obtenir l'URL
 

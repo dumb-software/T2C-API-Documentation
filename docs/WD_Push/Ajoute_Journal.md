@@ -27,10 +27,10 @@ Aucun
 ```
 
 ## Headers
-| Paramètres   | Contenu                                     | Description                |
-| :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/Ajoute_Journal`    | **Requis.** Envoyer des logs??? |
-|`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
+| Paramètres    | Contenu                                     | Description                                |
+| :------------ | :------------------------------------------ | :----------------------------------------- |
+| `SOAPAction`  | `urn:WD_Serveur_Push/Ajoute_Journal`        | **Requis.** Envoyer des logs???            |
+| `Content-Type`| `text/xml; charset=utf-8`                   | **Recommandé.** Type de contenu à envoyer. |
 
 ## Données (Payload)
 
@@ -42,6 +42,11 @@ Aucun
   <SOAP-ENV:Body/>
 </SOAP-ENV:Envelope>
 ```
+
+| Paramètres     | Contenu                                     | Description                                |
+| :------------- | :------------------------------------------ | :----------------------------------------- |
+| `<ns1:pTexte>` | `(Chaine ANSI)`                             | **Recommandé.** Message?                   |
+
 
 ## Exemple de réponse
 
