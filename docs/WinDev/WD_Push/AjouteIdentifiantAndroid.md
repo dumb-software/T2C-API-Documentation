@@ -51,10 +51,10 @@ Les paramètres de Canal se formatent comme ci:
 `NotifsActivés NotifsGénérales NotifsLignes NotifsTouteLigne NotifsTouteLigne Données;`
 
 * `NotifsActivés` définissent le statut des notifications de l'utilisateur, `0` désactive les notifications (push), `1` les activent.
-* `NotifsGénérales` définit le statut du Canal global, `1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `1` dans [Notification.txt](/pegase/notification.md))*
-* `NotifsLignes` définit le statut du Canal spécifique,`1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `2` dans [Notification.txt](/pegase/notification.md))*
+* `NotifsGénérales` définit le statut du Canal global, `1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `1` dans [Notification.txt](/WinDev/pegase/notification.md))*
+* `NotifsLignes` définit le statut du Canal spécifique,`1` l'active, `0` de désactive, il est inchangeable dans l'appli T2C. *(Voir Canal `2` dans [Notification.txt](/WinDev/pegase/notification.md))*
 * `NotifsTouteLigne` définit le filtre du Canal spécifique, `1` active les notifications pour toutes les lignes, `0` active les notifications uniquement les lignes sélectionnées dans `Données`. *(Oui, ce paramètre est bien présent 2 fois)*
-* `Données` est le filtre des lignes spécifiques, les données correspondent au `m_sLigne_name` des lignes sélectionnés. *(voir [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md))*
+* `Données` est le filtre des lignes spécifiques, les données correspondent au `m_sLigne_name` des lignes sélectionnés. *(voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))*
 
 ## Exemple de réponse
 

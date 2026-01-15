@@ -20,7 +20,7 @@ Cela contient les images *en 144p* des Lignes affichés dans l'application.
 ## Headers
 | Paramètres   | Contenu                                     | Description                |
 | :----------- | :------------------------------------------ | :------------------------- |
-| `SOAPAction` | `urn:WD_Serveur_Push/Retourne_Donnees_Reseau_ligne_image`    | **Requis.** Demande les dernieres images des lignes au serveur. |
+| `SOAPAction` | `urn:WD_Serveur_Push/Retourne_Donnees_Reseau_ligne_image`    | **Requis.** Demande les dernières images des lignes au serveur. |
 |`Content-Type`| `text/xml; charset=utf-8` | **Recommandé.** Type de contenu à envoyer. |
 
 ## Données (Payload)

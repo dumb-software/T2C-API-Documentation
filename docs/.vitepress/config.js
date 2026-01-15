@@ -3,7 +3,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "T2C API Documentation",
   description: "Documentation non-officielle de l'API T2C",
+  cleanUrls: true,
   base: '/T2C-API-Documentation/',
+
   sitemap: {
     hostname: 'https://dumb-software.github.io/T2C-API-Documentation/',
     transformItems(items) {
@@ -25,12 +27,19 @@ export default defineConfig({
       { text: 'Accueil', link: '/' },
       { text: 'Introduction', link: '/introduction' },
       {
-        text: 'Backends',
+        text: 'API Yoozly',
         items: [
-          { text: 'OpenIT', link: '/OpenIT/readme' },
-          { text: 'T2C XML', link: '/T2C_XML/readme' },
-          { text: 'WinDev Push Server', link: '/WD_Push/readme' },
-          { text: 'Pegase', link: '/pegase/readme' },
+          { text: 'API Server', link: '/Yoozly/API_Server/readme' },
+          { text: 'Analytics', link: '/Yoozly/analytics/readme' }
+        ]
+      },
+      { 
+        text: 'API WinDev',
+        items: [
+          { text: 'OpenIT', link: '/WinDev/OpenIT/readme' },
+          { text: 'T2C XML', link: '/WinDev/T2C_XML/readme' },
+          { text: 'WinDev Push Server', link: '/WinDev/WD_Push/readme' },
+          { text: 'Pegase', link: '/WinDev/pegase/readme' },
         ]
       }
     ],
@@ -53,40 +62,54 @@ export default defineConfig({
           ],
         },
         {
+          text: "API_Server",
+          collapsed: false,
+          items: [
+            { text: 'Informations', link: '/Yoozly/API_Server/readme' },
+          ],
+        },
+        {
+          text: "Analytics",
+          collapsed: false,
+          items: [
+            { text: 'Informations', link: '/Yoozly/analytics/readme' },
+          ],
+        },
+        {
           text: "OpenIT",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/OpenIT/readme' },
-            { text: 'Timetables', link: '/OpenIT/timetables' },
-            { text: 'Prochains Departs', link: '/OpenIT/prochainsDeparts' },
-            { text: 'Schedules', link: '/OpenIT/schedules' },
+            { text: 'Informations', link: '/WinDev/OpenIT/readme' },
+            { text: 'Timetables', link: '/WinDev/OpenIT/timetables' },
+            { text: 'Prochains Departs', link: '/WinDev/OpenIT/prochainsDeparts' },
+            { text: 'Schedules', link: '/WinDev/OpenIT/schedules' },
           ],
         },
         {
           text: "T2C_XML",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/T2C_XML/readme' },
-            { text: 'Alerte', link: '/T2C_XML/alerte' },
-            { text: 'Brèves', link: '/T2C_XML/breves' },
-            { text: 'Événements', link: '/T2C_XML/evenements' },
-            { text: 'Infos trafic', link: '/T2C_XML/infos-trafic' },
+            { text: 'Informations', link: '/WinDev/T2C_XML/readme' },
+            { text: 'Alerte', link: '/WinDev/T2C_XML/alerte' },
+            { text: 'Brèves', link: '/WinDev/T2C_XML/breves' },
+            { text: 'Événements', link: '/WinDev/T2C_XML/evenements' },
+            { text: 'Infos trafic', link: '/WinDev/T2C_XML/infos-trafic' },
           ],
         },
         {
           text: "WinDev Push Server",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/WD_Push/readme' },
+            { text: 'Informations', link: '/WinDev/WD_Push/readme' },
           ],
         },
         {
           text: "Pegase",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/pegase/readme' },
-            { text: 'Paramètres', link: '/pegase/param' },
-            { text: 'Notification', link: '/pegase/notification' },
+            { text: 'Informations', link: '/WinDev/pegase/readme' },
+            { text: 'Paramètres', link: '/WinDev/pegase/param' },
+            { text: 'Notification', link: '/WinDev/pegase/notification' },
           ],
         },
       ],
@@ -101,3 +124,5 @@ export default defineConfig({
     },
   },
 })
+
+
