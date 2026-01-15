@@ -62,19 +62,17 @@ export default defineConfig({
           ],
         },
         {
-          text: "Yoozly",
+          text: "API_Server",
           collapsed: false,
           items: [
             { text: 'Informations', link: '/Yoozly/API_Server/readme' },
-            { text: 'SIV - Arrêts', link: '/Yoozly/API_Server/siv-stops' },
-            { text: 'SIV - Lignes', link: '/Yoozly/API_Server/siv-routes' },
-            { text: 'SIV - C.Vélo', link: '/Yoozly/API_Server/siv-bike' },
-            { text: 'SIV - POI', link: '/Yoozly/API_Server/siv-poi' },
-            { text: 'SIV - Itinéraires', link: '/Yoozly/API_Server/siv-itineraries' },
-            { text: 'Editorial - News', link: '/Yoozly/API_Server/editorial-news' },
-            { text: 'Editorial - Events', link: '/Yoozly/API_Server/editorial-events' },
-            { text: 'Editorial - Pages', link: '/Yoozly/API_Server/editorial-pages' },
-            { text: 'Status', link: '/Yoozly/API_Server/status' },
+          ],
+        },
+        {
+          text: "Analytics",
+          collapsed: false,
+          items: [
+            { text: 'Informations', link: '/Yoozly/analytics/readme' },
           ],
         },
         {

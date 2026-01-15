@@ -1,5 +1,9 @@
 # Status - État de l'application
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Vérifier le statut
 
 Récupère l'état actuel de l'application (maintenance, mise à jour requise).

@@ -32,33 +32,33 @@ Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiel
 
 | Endpoint                                                   | Description                  |
 |------------------------------------------------------------|------------------------------|
-| [/stops](/Yoozly/API_Server/siv-stops)                     | Liste de tous les arrêts     |
-| [/stops/:id](/Yoozly/API_Server/siv-stops)                 | Détails d'un arrêt           |
-| [/stops/search](/Yoozly/API_Server/siv-stops)              | Recherche d'arrêts           |
+| /stops                                                     | Liste de tous les arrêts     |
+| /stops/:id                                                 | Détails d'un arrêt           |
+| /stops/search                                              | Recherche d'arrêts           |
 | /stops/:id/departures                                      | Informations sur les départs (Infos arrêts, tracé carte, destinations, aperçus de départs) |
-| /stops/:id/routes/:roadid/departures                       | Prochains départs  |
-| [/routes](/Yoozly/API_Server/siv-routes)                   | Liste des lignes/itinéraires |
+| /stops/:id/routes/:roadid/departures                       | Prochains départs            |
+| /routes                                                    | Liste des lignes/itinéraires |
 <!-- /routes/:id Aucune requête de l'appli -->
-| [/routes/:id](/Yoozly/API_Server/siv-routes)               | Détails d'une ligne          |
+| /routes/:id                                                | Détails d'une ligne          |
 <!-- /bike Aucune requête de l'appli -->
-| [/bike](/Yoozly/API_Server/siv-bike)                       | Stations C.Vélo              |
-| [/poi](/Yoozly/API_Server/siv-poi)                         | Points d'intérêt             |
-| [/itineraries](/Yoozly/API_Server/siv-itineraries)         | Calcul d'itinéraires         |
+| /bike                                                      | Stations C.Vélo              |
+| /poi                                                       | Points d'intérêt             |
+| /itineraries                                               | Calcul d'itinéraires         |
 | /alerts/banners                                            | Bannière d'alertes???        |
 | /alerts/byline/:lineid                                     | Infos Traffic Ligne          |
 | /trips/:tripid/stops                                       | Arrêts et départs d'un itinéraire |
-| /trips/:tripid/shapes                                       | Tracé de la carte d'un itinéraire |
+| /trips/:tripid/shapes                                      | Tracé de la carte d'un itinéraire |
 
 ### Editorial
 
-Editorial est un 
+*WIP*
 
 | Endpoint | Description |
 |----------|-------------|
-| [/news](/Yoozly/API_Server/editorial-news) | Actualités |
-| [/events](/Yoozly/API_Server/editorial-events) | Événements |
+| /news | Actualités |
+| /events | Événements |
 <!-- /page/:slug Aucune requête de l'appli -->
-| [/page/:slug](/Yoozly/API_Server/editorial-pages) | Pages statiques |
+| /page/:slug | Pages statiques |
 | /lines/:lineid | Infos générales lignes? |
 | /sales-points | Points de ventes |
 | /park-and-ride | Parkings? |

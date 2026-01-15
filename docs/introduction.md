@@ -10,7 +10,7 @@
 
 | Backends                                                  | Description                                                     | Statut                |
 | :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [API Server](/Yoozly/API_Server/readme.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%                    |
+| [API Server](/Yoozly/API_Server/readme.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%  (À documenter)  |
 | [Analytics](/Yoozly/analytics/readme.md)                  | Tracking utilisateur.                                           | Non.                  |
 
 

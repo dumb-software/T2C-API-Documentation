@@ -1,5 +1,9 @@
 # Editorial - Actualités (News)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des actualités
 
 Récupère les dernières actualités T2C.

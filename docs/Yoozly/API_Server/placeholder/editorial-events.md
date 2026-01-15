@@ -1,5 +1,9 @@
 # Editorial - Événements (Events)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des événements
 
 Récupère les événements T2C.

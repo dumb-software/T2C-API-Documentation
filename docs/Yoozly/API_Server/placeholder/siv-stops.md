@@ -1,5 +1,9 @@
 # SIV - Arrêts (Stops)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des arrêts
 
 Récupère la liste de tous les arrêts du réseau T2C.

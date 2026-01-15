@@ -1,5 +1,9 @@
 # SIV - Points d'intérêt (POI)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des POI
 
 Récupère la liste des points d'intérêt (arrêts avec leur type).

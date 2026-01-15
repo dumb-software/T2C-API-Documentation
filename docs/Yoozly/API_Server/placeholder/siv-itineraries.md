@@ -1,5 +1,9 @@
 # SIV - Itinéraires
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Calcul d'itinéraire
 
 Calcule un itinéraire entre deux points.

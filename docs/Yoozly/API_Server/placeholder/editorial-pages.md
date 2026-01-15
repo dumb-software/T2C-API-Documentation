@@ -1,5 +1,9 @@
 # Editorial - Pages statiques
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Récupérer une page
 
 Récupère le contenu d'une page statique.

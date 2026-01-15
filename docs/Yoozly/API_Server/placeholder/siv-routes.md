@@ -1,5 +1,9 @@
 # SIV - Lignes (Routes)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des lignes
 
 Récupère la liste de toutes les lignes du réseau T2C.

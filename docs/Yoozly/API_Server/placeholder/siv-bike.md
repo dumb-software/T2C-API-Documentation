@@ -1,5 +1,9 @@
 # SIV - Stations C.Vélo (Bike)
 
+::: warning PLACEHOLDER
+**Cette page est un placeholder!**
+:::
+
 ## Liste des stations
 
 Récupère la liste de toutes les stations C.Vélo.
