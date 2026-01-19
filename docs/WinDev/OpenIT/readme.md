@@ -4,21 +4,17 @@
   <h1>OpenIT</h1>
 </div>
 
-::: warning Fonctions Manquantes
-**Il reste des fonctions Synthèse non-découvertes, le CMS de T2C est privé, donc impossible de tous les obtenir.**
-
-Si vous trouvez des fonctions Synthèse non-présentes ici, merci d'ouvrir une [Issue](https://github.com/dumb-software/T2C-API-Documentation/issues).
-:::
+::: danger Avertissement: Nouveau Réseau T2C Cette page parle d'une backend obsolète lors de la migration vers l'API "Yoozly" :::
 
 ## Présentation
 
 **Movi OpenIT** est une compagnie spécialisée dans la digitalisation de la mobilité.
 
-Dans le cas de la T2C, c'est **OpenIT** qui gère la backend des horaires.
+Dans le cas de la T2C, c'était **OpenIT** qui gérait la backend des horaires.
 
 Le serveur d'horaires utilisé est le projet Open-Source [SYNTHESE](https://git.openit.ch/rcsmobility/synthese).
 
-Leur serveur est disponible sur 2 instances connues: `tr.t2c.openit.ch` et `qr.t2c.fr`.
+Leur serveur était disponible sur 2 instances connues avant la migration vers le nouveau réseau: `tr.t2c.openit.ch` et `qr.t2c.fr`.
 
 
 ::: warning IMPORTANT
@@ -29,6 +25,10 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 * `http://t2c-prod.rcsmobility.com/synthese`
 
 * `http://t2c-prod.moviplus.ch/synthese`
+
+* `http://qr.t2c.fr`
+
+* `http://tr.t2c.openit.ch`
 :::
 
 
