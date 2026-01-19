@@ -4,7 +4,9 @@
   <h1>OpenIT</h1>
 </div>
 
-::: danger Avertissement: Nouveau Réseau T2C Cette page parle d'une backend obsolète lors de la migration vers l'API "Yoozly" :::
+::: danger Avertissement: Nouveau Réseau T2C Cette page parle d'une backend obsolète lors de la migration vers l'API "Yoozly"
+:::
+
 
 ## Présentation
 
