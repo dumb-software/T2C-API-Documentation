@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/apiserverlogo2.png" width="110px" alt="API_Server logo"/>
+  <img src="/apiserverlogo2.png" width="400px" alt="API_Server logo"/>
   <br>
   <h1>API Server</h1>
 </div>
