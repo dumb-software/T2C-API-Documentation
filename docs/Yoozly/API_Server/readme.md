@@ -12,7 +12,7 @@
 
 **API Server** est une backend qui gère les horaires, les actions, les notifications et les dernières informations du réseau T2C.
 
-Elle remplace les anciennes backends de l'API "WinDev" *([OpenIT](/WinDev/OpenIT/readme), [T2C XML](/WinDev/T2C_XML/readme), [WD Push Server](/WinDev/WD_Push/readme), [Pegase](http://localhost:5173/T2C-API-Documentation/WinDev/pegase/readme))*, tout est centralisé sur une seule frontend.
+Elle remplace les anciennes backends de l'API "WinDev" *([OpenIT](/WinDev/OpenIT/readme), [T2C XML](/WinDev/T2C_XML/readme), [WD Push Server](/WinDev/WD_Push/readme), [Pegase](/WinDev/pegase/readme))*, tout est centralisé sur une seule frontend.
 
 L'API est accessible via plusieurs services :
 
