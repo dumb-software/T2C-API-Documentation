@@ -12,7 +12,7 @@
 
 **API Server** est une backend qui gère les horaires, les actions, les notifications et les dernières informations du réseau T2C.
 
-Elle remplace les anciennes backends de l'API "WinDev" *([OpenIT](/WinDev/OpenIT/readme), [T2C XML](/WinDev/T2C_XML/readme), [WD Push Server](/WinDev/WD_Push/readme), [Pegase](/WinDev/pegase/readme))*, tout est centralisé sur une seule frontend.
+Elle remplace les anciennes backends de l'API "WinDev" *([OpenIT](/WinDev/OpenIT/readme), [T2C XML](/WinDev/T2C_XML/readme), [WD Push Server](/WinDev/WD_Push/readme), [Pegase](/WinDev/pegase/readme))*, tout est centralisé en un seul endpoint, avec différents services.
 
 L'API est accessible via plusieurs services :
 
@@ -38,10 +38,8 @@ Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiel
 | /stops/:id/departures                                      | Informations sur les départs (Infos arrêts, tracé carte, destinations, aperçus de départs) |
 | /stops/:id/routes/:roadid/departures                       | Prochains départs            |
 | /routes                                                    | Liste des lignes/itinéraires |
-<!-- /routes/:id Aucune requête de l'appli -->
-| /routes/:id                                                | Détails d'une ligne          |
-<!-- /bike Aucune requête de l'appli -->
-| /bike                                                      | Stations C.Vélo              |
+| /routes/:id                                                | Détails d'une ligne**          |
+| /bike                                                      | Stations C.Vélo**              |
 | /poi                                                       | Points d'intérêt             |
 | /itineraries                                               | Calcul d'itinéraires         |
 | /alerts/banners                                            | Bannière d'alertes???        |
