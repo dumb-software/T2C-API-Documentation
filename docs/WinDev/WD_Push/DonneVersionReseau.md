@@ -10,11 +10,11 @@ Permettait d'obtenir la dernière version du réseau.
 C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe.
 
 Si oui elle va executer les actions:
-* [Retourne_Donnees_Reseau_arret](/WD_Push/Retourne_Donnees_Reseau_arret.md)
-* [Retourne_Donnees_Reseau_dest](/WD_Push/Retourne_Donnees_Reseau_dest.md)
-* [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md)
-* [Retourne_Donnees_Reseau_ligne_image](/WD_Push/Retourne_Donnees_Reseau_ligne_image.md)
-* [Retourne_Donnees_Reseau_tarif](/WD_Push/Retourne_Donnees_Reseau_tarif.md)
+* [Retourne_Donnees_Reseau_arret](/WinDev/WD_Push/Retourne_Donnees_Reseau_arret.md)
+* [Retourne_Donnees_Reseau_dest](/WinDev/WD_Push/Retourne_Donnees_Reseau_dest.md)
+* [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md)
+* [Retourne_Donnees_Reseau_ligne_image](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne_image.md)
+* [Retourne_Donnees_Reseau_tarif](/WinDev/WD_Push/Retourne_Donnees_Reseau_tarif.md)
 :::
 
 ## Obtenir la version

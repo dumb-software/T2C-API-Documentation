@@ -4,34 +4,26 @@
   <h1>Documentation non-officielle de l'API T2C</h1>
 </div>
 
-::: danger Avertissement: Nouveau Réseau T2C
-**Mise à Jour du 20 Décembre 2025:**
-
-**Le nouveau réseau et la nouvelle appli T2C changent beaucoup de choses.**
-
-Certaines informations de cette documentation sont potentiellement déjà obsolètes!
-
-Cela prendra un moment de tout mettre à jour!
-:::
-
 ## API "Yoozly" (Actuelle)
 
 "Yoozly" est la toute nouvelle API qu'utilise l'application T2C sur les versions `3.0`.
 
-::: tip Work In Progress
-Nous analysons cette nouvelle API actuellement, il n'y a donc pas encore de documentation disponible pour celle-ci.
-:::
+| Backends                                                  | Description                                                     | Statut                |
+| :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
+| [API Server](/Yoozly/API_Server/readme.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%  (À documenter)  |
+| [Analytics](/Yoozly/analytics/readme.md)                  | Tracking utilisateur.                                           | Non.                  |
+
 
 ## API "WinDev" (Obsolète)
 
 L'API "WinDev" était utilisée sur les versions `2.5` par l'application T2C. Le 20 Décembre 2025, la T2C a opéré une refonte totale de leur infrastructure pour laisser place à l'API "Yoozly", rendant obsolète celle-ci.
 
-| Backends                                                  | Description                                                     | Statut                |
-| :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [OpenIT](/OpenIT/readme.md)                               | Table des Horaires, Prochains passages et Itinéraires.          | 99%                   |
-| [T2C XML](/T2C_XML/readme.md)                             | Alertes, Brèves, Évènements et Infos Trafic.                    | 100%                  |
-| [WinDev Push Server](/WD_Push/readme.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter)    |
-| [Pegase](/pegase/readme.md)                               | Notifications.                                                  | 100%                  |
+| Backends                                                         | Description                                                     | Statut                |
+| :--------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
+| [OpenIT](/WinDev/OpenIT/readme.md)                               | Table des Horaires, Prochains passages et Itinéraires.          | 99%                   |
+| [T2C XML](/WinDev/T2C_XML/readme.md)                             | Alertes, Brèves, Évènements et Infos Trafic.                    | 100%                  |
+| [WinDev Push Server](/WinDev/WD_Push/readme.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter)    |
+| [Pegase](/WinDev/pegase/readme.md)                               | Notifications.                                                  | 100%                  |
 
 
 

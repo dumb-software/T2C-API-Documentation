@@ -166,7 +166,7 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 * `foregroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en RGB)
 * `xmlForegroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en Hex)
 * `style=` correspond au nom simple attribué à la couleur de la Ligne.
-* `image=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md))
+* `image=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
 * `direction=` correspond à la direction du Trajet.
 * `wayback=` définit si la direction est une sous-destination. (Une sous-destination est affichée comme destination secondaire, pas comme "Direction".)
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.

@@ -27,20 +27,20 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 | :---------------------------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------------------------- |
 | __AjouteIdentifiant                                                                                                                                         |                                                 |
 | __ListeIdentifiants                                                                                                                                         |                                                 |
-| [AjouteIdentifiantAndroid](/WD_Push/AjouteIdentifiantAndroid.md)                                                                                                                                    | Ajouter un Identifiant Android pour recevoir des push-notifications (GSM)  |
+| [AjouteIdentifiantAndroid](/WinDev/WD_Push/AjouteIdentifiantAndroid.md)                                                                                                                                    | Ajouter un Identifiant Android pour recevoir des push-notifications (GSM)  |
 | AjouteIdentifiantIOS                                                                                                                                        |                                                 |
-| [Ajoute_Journal](/WD_Push/Ajoute_Journal.md)                                           | ❓ *Afficher un message dans les logs?*         |
-| [DonneVersionReseau](/WD_Push/DonneVersionReseau.md)                                   | Obtenir la dernière version du réseau.          |
+| [Ajoute_Journal](/WinDev/WD_Push/Ajoute_Journal.md)                                           | ❓ *Afficher un message dans les logs?*         |
+| [DonneVersionReseau](/WinDev/WD_Push/DonneVersionReseau.md)                                   | Obtenir la dernière version du réseau.          |
 | DroitPush                                                                                                                                                   |                                                 |
 | ListeIdentifiantsAndroid                                                                                                                                    |                                                 |
 | ListeIdentifiantsIOS                                                                                                                                        |                                                 |
 | ListePushNotification                                                                                                                                       |                                                 |
-| [PageWebAffiche](/WD_Push/PageWebAffiche.md)                                           | Obtenir une URL inutilisée.                     |
-| [Retourne_Donnees_Reseau_arret](/WD_Push/Retourne_Donnees_Reseau_arret.md)             | Obtenir les informations de chaque Arrêt.       |
-| [Retourne_Donnees_Reseau_dest](/WD_Push/Retourne_Donnees_Reseau_dest.md)               | Obtenir les informations de chaque Destination. |
-| [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md)             | Obtenir les informations de chaque Ligne.       |
-| [Retourne_Donnees_Reseau_ligne_image](/WD_Push/Retourne_Donnees_Reseau_ligne_image.md) | Obtenir les images de chaque Ligne.             |
-| [Retourne_Donnees_Reseau_tarif](/WD_Push/Retourne_Donnees_Reseau_tarif.md)             | Obtenir les prix et infos de chaque Tarifs.     |
+| [PageWebAffiche](/WinDev/WD_Push/PageWebAffiche.md)                                           | Obtenir une URL inutilisée.                     |
+| [Retourne_Donnees_Reseau_arret](/WinDev/WD_Push/Retourne_Donnees_Reseau_arret.md)             | Obtenir les informations de chaque Arrêt.       |
+| [Retourne_Donnees_Reseau_dest](/WinDev/WD_Push/Retourne_Donnees_Reseau_dest.md)               | Obtenir les informations de chaque Destination. |
+| [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md)             | Obtenir les informations de chaque Ligne.       |
+| [Retourne_Donnees_Reseau_ligne_image](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne_image.md) | Obtenir les images de chaque Ligne.             |
+| [Retourne_Donnees_Reseau_tarif](/WinDev/WD_Push/Retourne_Donnees_Reseau_tarif.md)             | Obtenir les prix et infos de chaque Tarifs.     |
 
 ## Avertissement
 ::: danger Avertissement Légal

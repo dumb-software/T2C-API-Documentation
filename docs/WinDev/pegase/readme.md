@@ -12,8 +12,8 @@
 
 | Endpoint                              | Description                                     |
 | :----------------------------------- | :---------------------------------------------- |
-| [param.txt](/pegase/param.md)                           |Date et heure des dernières modifications des notifications.|
-| [notification.txt](/pegase/notification.md)                    |Contenu des dernières Notifications.|
+| [param.txt](/WinDev/pegase/param.md)                           |Date et heure des dernières modifications des notifications.|
+| [notification.txt](/WinDev/pegase/notification.md)                    |Contenu des dernières Notifications.|
 
 ## Avertissement
 ::: danger Avertissement Légal

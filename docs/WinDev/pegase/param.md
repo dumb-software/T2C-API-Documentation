@@ -1,6 +1,6 @@
 # Pegase - Param
 
-Obtenir la dernière date/heure des dernières modifications des [notifications](/pegase/notification)
+Obtenir la dernière date/heure des dernières modifications des [notifications](/WinDev/pegase/notification)
 
 :::info
 L'application T2C vérifie régulièrement cet endpoint pour vérifier si il y'a de nouvelles notifications.

@@ -36,9 +36,9 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 
 | Endpoint                                  | Description                                                  |
 | :---------------------------------------- | :----------------------------------------------------------- |
-| [timetables](/OpenIT/timetables.md)       | Obtenir la table des horaires d'un arrêt.                    |
-| [prochainsDeparts](/OpenIT/prochainsDeparts.md) | Obtenir le temps restant d'attente d'un arrêt.               |
-| [schedules](/OpenIT/schedules.md)         | Calculer un itinéraire.                                      |
+| [timetables](/WinDev/OpenIT/timetables.md)       | Obtenir la table des horaires d'un arrêt.                    |
+| [prochainsDeparts](/WinDev/OpenIT/prochainsDeparts.md) | Obtenir le temps restant d'attente d'un arrêt.               |
+| [schedules](/WinDev/OpenIT/schedules.md)         | Calculer un itinéraire.                                      |
 
 ## Avertissement
 ::: danger Avertissement Légal

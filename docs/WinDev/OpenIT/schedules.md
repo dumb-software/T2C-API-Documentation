@@ -5153,7 +5153,7 @@ Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme
 * `lsn=` correspond au nom court de la Ligne.
 * `li=` indique l'identifiant de la Ligne.
 * `n=` correspond au nom complet de la Ligne.
-* `i=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WD_Push/Retourne_Donnees_Reseau_ligne.md))
+* `i=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
 * `lc=` correspond à la couleur associé à la Ligne. (formaté en RGB)
 * `w=` représente le tracé du parcours d'une Ligne sur la Carte de l'itinéraire. (Longitude, Latitude)
 * `dn=` indique le nom de la destination de la Ligne.
