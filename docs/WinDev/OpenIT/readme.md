@@ -30,8 +30,6 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 * `http://t2c-prod.moviplus.ch/synthese`
 
 * `http://qr.t2c.fr`
-
-* `http://tr.t2c.openit.ch`
 :::
 
 
