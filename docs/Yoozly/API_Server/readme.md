@@ -55,7 +55,6 @@ Le SIV *(Système d'Information Voyageur)* est un service qui remplace essentiel
 |----------|-------------|
 | /news | Actualités |
 | /events | Événements |
-<!-- /page/:slug Aucune requête de l'appli -->
 | /page/:slug | Pages statiques |
 | /lines/:lineid | Infos générales lignes? |
 | /sales-points | Points de ventes |
