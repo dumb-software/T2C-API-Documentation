@@ -1,5 +1,8 @@
-::: warning Hein?
-![Emoji idk.](/idk.png)
-#### Vous recherchez probablement [ceci.](/introduction#api-yoozly-actuelle)
-Si vous êtes arrivé ici avec une page annexe à la documentation, merci d'ouvrir une issue.
-:::
+---
+head:
+  - - meta
+    - http-equiv: refresh
+      content: '0; URL=../introduction#api-yoozly-actuelle'
+---
+
+# Redirection...
