@@ -23,6 +23,7 @@ export default defineConfig({
   ],
   themeConfig: {
     siteTitle: 'T2C API Docs',
+    logo: '/favicon.png',
     nav: [
       { text: 'Accueil', link: '/' },
       { text: 'Introduction', link: '/introduction' },
