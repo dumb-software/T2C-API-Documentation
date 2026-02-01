@@ -5,6 +5,7 @@ export default defineConfig({
   description: "Documentation non-officielle de l'API T2C",
   cleanUrls: true,
   base: '/T2C-API-Documentation/',
+  lastUpdated: true,
 
   sitemap: {
     hostname: 'https://dumb-software.github.io/T2C-API-Documentation/',
