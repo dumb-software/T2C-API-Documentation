@@ -4,8 +4,8 @@
   <h1>WD Push Server</h1>
 </div>
 
-::: danger Avertissement: Nouveau Réseau T2C
-Cette page parle d'une **backend obsolète** lors de la migration vers l'API "Yoozly"
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
 
 ::: warning WORK IN PROGRESS

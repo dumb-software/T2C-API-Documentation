@@ -1,5 +1,9 @@
 # OpenIT - ProchainsDeparts
 
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+:::
+
 Obtenir le temps restant d'attente d'un arrêt.
 
 Contient aussi d'autres informations sur le trajet, comme l'heure d'arrivée, un compte a rebours, si il est annulé, accès handicapé disponible...

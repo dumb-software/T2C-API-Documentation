@@ -1,5 +1,9 @@
 # OpenIT - Timetables
 
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+:::
+
 Obtenir la table des horaires d'un arrêt.
 
 Cela comprend toutes les lignes associés à l'arrêt.

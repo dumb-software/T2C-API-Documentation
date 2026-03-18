@@ -1,5 +1,9 @@
 # OpenIT - Schedules
 
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+:::
+
 Calculer un itinéraire, pour aller d'un arrêt à un autre.
 
 ## Calculer un Itinéraire avec des noms d'arrêts

@@ -1,7 +1,7 @@
 # T2C Push Server - Ajoute_Journal
 
-::: danger Avertissement: Nouveau Réseau T2C
-Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
 
 :::warning On sait pas ce que ça fait..

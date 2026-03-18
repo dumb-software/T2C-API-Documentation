@@ -1,5 +1,9 @@
 # Pegase - Notification
 
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+:::
+
 Obtenir le contenu de toutes les dernières notifications (Push & Appli).
 
 ## Obtenir le contenu:

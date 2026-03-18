@@ -4,8 +4,8 @@
   <h1>OpenIT</h1>
 </div>
 
-::: danger Avertissement: Nouveau Réseau T2C
-Cette page parle d'une **backend obsolète** lors de la migration vers l'API "Yoozly"
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
 
 
@@ -30,6 +30,8 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 * `http://t2c-prod.moviplus.ch/synthese`
 
 * `http://qr.t2c.fr`
+
+* `http://tr.t2c.openit.ch`
 :::
 
 

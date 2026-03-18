@@ -4,7 +4,7 @@
   <h1>Documentation non-officielle de l'API T2C</h1>
 </div>
 
-## API "Yoozly" (Actuelle)
+## API "Yoozly"
 
 "Yoozly" est la toute nouvelle API qu'utilise l'application T2C sur les versions `3.0`.
 

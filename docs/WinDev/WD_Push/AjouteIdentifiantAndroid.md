@@ -1,7 +1,7 @@
 # T2C Push Server - AjouteIdentifiantAndroid
 
-::: danger Avertissement: Nouveau Réseau T2C
-Cette page parle d'un **endpoint obsolète** lors de la migration vers l'API "Yoozly"
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
 
 Ajouter un identifiant du service de notification Android (GSM) à l'aide d'un Jeton Firebase FCM

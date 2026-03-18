@@ -4,6 +4,10 @@
   <h1>Pegase Server</h1>
 </div>
 
+::: danger Endpoint Obsolète:
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+:::
+
 ## Présentation
 
 **Pegase Server** est une backend qui gère le contenu des notifications.
