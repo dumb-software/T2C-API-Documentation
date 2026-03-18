@@ -64,54 +64,66 @@ export default defineConfig({
           ],
         },
         {
-          text: "API_Server",
+          text: "API Yoozly",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/Yoozly/API_Server/readme' },
+            {
+              text: 'API_Server',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/Yoozly/API_Server/readme' }
+              ]
+            },
+            {
+              text: 'Analytics',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/Yoozly/analytics/readme' }
+              ]
+            },
           ],
         },
         {
-          text: "Analytics",
+          text: "API WinDev",
           collapsed: false,
           items: [
-            { text: 'Informations', link: '/Yoozly/analytics/readme' },
-          ],
-        },
-        {
-          text: "OpenIT",
-          collapsed: false,
-          items: [
-            { text: 'Informations', link: '/WinDev/OpenIT/readme' },
-            { text: 'Timetables', link: '/WinDev/OpenIT/timetables' },
-            { text: 'Prochains Departs', link: '/WinDev/OpenIT/prochainsDeparts' },
-            { text: 'Schedules', link: '/WinDev/OpenIT/schedules' },
-          ],
-        },
-        {
-          text: "T2C_XML",
-          collapsed: false,
-          items: [
-            { text: 'Informations', link: '/WinDev/T2C_XML/readme' },
-            { text: 'Alerte', link: '/WinDev/T2C_XML/alerte' },
-            { text: 'Brèves', link: '/WinDev/T2C_XML/breves' },
-            { text: 'Événements', link: '/WinDev/T2C_XML/evenements' },
-            { text: 'Infos trafic', link: '/WinDev/T2C_XML/infos-trafic' },
-          ],
-        },
-        {
-          text: "WinDev Push Server",
-          collapsed: false,
-          items: [
-            { text: 'Informations', link: '/WinDev/WD_Push/readme' },
-          ],
-        },
-        {
-          text: "Pegase",
-          collapsed: false,
-          items: [
-            { text: 'Informations', link: '/WinDev/pegase/readme' },
-            { text: 'Paramètres', link: '/WinDev/pegase/param' },
-            { text: 'Notification', link: '/WinDev/pegase/notification' },
+            { 
+              text: 'OpenIT',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/WinDev/OpenIT/readme' },
+                { text: 'Timetables', link: '/WinDev/OpenIT/timetables' },
+                { text: 'Prochains Departs', link: '/WinDev/OpenIT/prochainsDeparts' },
+                { text: 'Schedules', link: '/WinDev/OpenIT/schedules' },
+              ]
+            },
+            {
+              text: 'T2C_XML',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/WinDev/T2C_XML/readme' },
+                { text: 'Alerte', link: '/WinDev/T2C_XML/alerte' },
+                { text: 'Brèves', link: '/WinDev/T2C_XML/breves' },
+                { text: 'Événements', link: '/WinDev/T2C_XML/evenements' },
+                { text: 'Infos trafic', link: '/WinDev/T2C_XML/infos-trafic' },
+              ]
+            },
+            {
+              text: 'WinDev Push Server',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/WinDev/WD_Push/readme' },
+              ]
+            },
+            {
+              text: 'Pegase',
+              collapsed: true,
+              items: [
+                { text: 'Informations', link: '/WinDev/pegase/readme' },
+                { text: 'Paramètres', link: '/WinDev/pegase/param' },
+                { text: 'Notification', link: '/WinDev/pegase/notification' },
+              ]
+            },
           ],
         },
       ],
