@@ -15,8 +15,6 @@ Le serveur collecte des informations comme:
 * Chaque action faite dans l'app
 * La taille de l'écran
 
-Pour des raisons évidentes, nous n'allons pas documenter cet endpoint.
-
 ## Endpoints
 
 | Endpoint                              | Description                                     |
