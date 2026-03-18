@@ -4,11 +4,11 @@
   <h1>XML T2C</h1>
 </div>
 
-## Présentation
-
 ::: danger Endpoint Obsolète:
 Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
+
+## Présentation
 
 Les **XML T2C** contenaient toutes les dernières informations du réseau T2C.
 
