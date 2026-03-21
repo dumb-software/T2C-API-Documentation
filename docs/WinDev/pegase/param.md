@@ -1,7 +1,7 @@
 # Pegase - Param
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 Obtenir la dernière date/heure des dernières modifications des [notifications](/WinDev/pegase/notification)

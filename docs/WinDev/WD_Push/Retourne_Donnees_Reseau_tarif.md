@@ -1,7 +1,7 @@
 # T2C Push Server - Retourne_Donnees_Reseau_tarif
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 Obtenir les informations des tarifs du réseau T2C.

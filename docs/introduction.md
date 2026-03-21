@@ -10,8 +10,8 @@ Yoozly est la toute nouvelle API qu'utilise l'application T2C sur les versions `
 
 | Backends                                                  | Description                                                     | Statut                |
 | :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [API Server](/Yoozly/API_Server/readme.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%  (À documenter)    |
-| [Analytics](/Yoozly/analytics/readme.md)                  | Tracking utilisateur.                                           | 0%  (À documenter)    |
+| [API Server](/Yoozly/API_Server/index.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%  (À documenter)    |
+| [Analytics](/Yoozly/analytics/index.md)                  | Tracking utilisateur.                                           | 0%  (À documenter)    |
 
 
 ## API WinDev (Obsolète)
@@ -20,10 +20,10 @@ L'API WinDev était utilisée sur les versions `2.5` par l'application T2C. Le 2
 
 | Backends                                                         | Description                                                     | Statut                |
 | :--------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [OpenIT](/WinDev/OpenIT/readme.md)                               | Table des Horaires, Prochains passages et Itinéraires.          | 100%                   |
-| [T2C XML](/WinDev/T2C_XML/readme.md)                             | Alertes, Brèves, Évènements et Infos Trafic.                    | 100%                  |
-| [WinDev Push Server](/WinDev/WD_Push/readme.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter)    |
-| [Pegase](/WinDev/pegase/readme.md)                               | Notifications.                                                  | 100%                  |
+| [OpenIT](/WinDev/OpenIT/index.md)                               | Table des Horaires, Prochains passages et Itinéraires.          | 100%                   |
+| [T2C XML](/WinDev/T2C_XML/index.md)                             | Alertes, Brèves, Évènements et Infos Trafic.                    | 100%                  |
+| [WinDev Push Server](/WinDev/WD_Push/index.md)                  | Informations du Réseau et Actions Push.                         | 50% (À documenter)    |
+| [Pegase](/WinDev/pegase/index.md)                               | Notifications.                                                  | 100%                  |
 
 
 
