@@ -7,7 +7,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 Les Dernières Alertes du Réseau T2C.
 
 ::: info
-Les alertes sont les messages qui apparaissent au premier-plan lors du lancement de l'application.
+Les alertes sont les messages qui apparaissent au premier plan lors du lancement de l'application.
 :::
 
 ## Obtenir les dernières alertes

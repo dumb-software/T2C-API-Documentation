@@ -8,7 +8,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 ![Emoji idk.](/idk.png)
 
-**L'action existe dans l'appli mais elle n'est jamais utilisée.**
+**L'action existe dans l'appli mais elle n'est jamais exécutée.**
 
 Mais on a une théorie:
 Cela affiche un message dans les logs du serveur.
@@ -67,6 +67,6 @@ Aucun
 ```
 :::
 
-Peu importe ce qui est mit dans le payload, **le serveur ne renvoie jamais de réponse**.
+Peu importe ce qui est mis dans le payload, **le serveur ne renvoie jamais de réponse**.
 
 ~~pas très gentil quand on envoie "passez une bonne journée" :(~~

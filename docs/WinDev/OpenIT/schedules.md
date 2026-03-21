@@ -48,7 +48,7 @@ ou
 ::: info
 Le `%20` dans les paramètres de la date correspond à un **ESPACE**.
 
-Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
+Les Coordonnées GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Exemple d'envoi

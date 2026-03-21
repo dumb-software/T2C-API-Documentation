@@ -7,9 +7,9 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 Obtenir les informations des Lignes du réseau T2C. 
 
 :::info
-Cela contient les noms, l'identifiant des Lignes, les noms d'images associés à `Retourne_Donnees_Reseau_ligne_image` et les coordonnées GPS des arrêts.
+Cela contient les noms, l'identifiant des Lignes, les noms d'images associées à `Retourne_Donnees_Reseau_ligne_image` et les coordonnées GPS des arrêts.
 
-Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
+Les Coordonnées GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Obtenir les derniers tarifs
@@ -2742,7 +2742,7 @@ Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretRes
 
 Mais **elles sont encodés en BASE64 puis en GunZip!**
 
-Pour lire les informations, **nous vous recommendons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()Unescape_Unicode_Characters('%5C%5Cu')).**
+Pour lire les informations, **nous vous recommandons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()Unescape_Unicode_Characters('%5C%5Cu')).**
 :::
 
 En decodant l'exemple ci dessus, cela donne:

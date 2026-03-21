@@ -7,7 +7,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 Obtenir les images des Lignes du réseau T2C. 
 
 :::info
-Cela contient les images *en 144p* des Lignes affichés dans l'application.
+Cela contient les images *en 144p* des Lignes affichées dans l'application.
 :::
 
 ## Obtenir les derniers tarifs
@@ -94,7 +94,7 @@ Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretRes
 
 Mais **elles sont encodés en BASE64 puis en GunZip!**
 
-Pour lire les informations, **nous vous recommendons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()Unescape_Unicode_Characters('%5C%5Cu')).**
+Pour lire les informations, **nous vous recommandons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()Unescape_Unicode_Characters('%5C%5Cu')).**
 :::
 
 ::: warning

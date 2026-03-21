@@ -4,9 +4,9 @@
 Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
 :::
 
-Obtenir une URL maintenant inutilisé.
+Obtenir une URL maintenant inutilisée.
 
-Potentiellement utilisé pour des évènements.
+Potentiellement utilisé pour des événements.
 
 ## Obtenir l'URL
 

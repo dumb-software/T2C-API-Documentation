@@ -14,7 +14,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 ## Présentation
 
-**WinDev Push Server** était une backend principalement utilisée pour executer des actions, elle était utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
+**WinDev Push Server** était une backend principalement utilisée pour exécuter des actions, elle était utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
 
 [Ce serveur](https://help.windev.com/fr-FR/?1000021015) est proposé par WinDev Mobile et utilise la même infrastructure que leur application mobile, ce qui facilite son intégration.
 
@@ -44,7 +44,7 @@ L'échange entre ce serveur se fait principalement avec le protocole [SOAP (Simp
 
 ## Avertissement
 ::: danger Avertissement Légal
-**Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
+**Ceci est une documentation non officielle de l'api utilisée dans l'appli T2C.**
 
 Nous ne sommes pas associés à "*[T2C](https://www.t2c.fr/)*", la "*[Régie EPIC T2C](https://annuaire-entreprises.data.gouv.fr/entreprise/regie-des-transports-urbains-de-l-agglomeration-clermontoise-t2c-789515160)*", à "*[C.Vélo](https://www.c-velo.fr/)*", au "*[SMTC-AC](https://www.smtc-clermont-agglo.fr/)*" ou à tout autre service lié au réseau de transport de Clermont.
 

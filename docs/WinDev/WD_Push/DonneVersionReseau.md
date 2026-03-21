@@ -7,9 +7,9 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 Permettait d'obtenir la dernière version du réseau.
 
 ::: info
-C'est la première action que l'appli execute, elle vérifie si une nouvelle version du réseau existe.
+C'est la première action que l'appli exécute, elle vérifie si une nouvelle version du réseau existe.
 
-Si oui elle va executer les actions:
+Si oui elle va exécuter les actions:
 * [Retourne_Donnees_Reseau_arret](/WinDev/WD_Push/Retourne_Donnees_Reseau_arret.md)
 * [Retourne_Donnees_Reseau_dest](/WinDev/WD_Push/Retourne_Donnees_Reseau_dest.md)
 * [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md)

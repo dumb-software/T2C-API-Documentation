@@ -1,7 +1,7 @@
 <div align="center">
   <img src="/apilogo2.png" width="250" alt="API logo"/>
   <br>
-  <h1>Documentation non-officielle de l'API T2C</h1>
+  <h1>Documentation non officielle de l'API T2C</h1>
 </div>
 
 ## API Yoozly

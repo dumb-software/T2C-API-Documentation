@@ -6,7 +6,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 Obtenir la table des horaires d'un arrêt.
 
-Cela comprend toutes les lignes associés à l'arrêt.
+Cela comprend toutes les lignes associées à l'arrêt.
 
 ## Obtenir la Table des horaires
 

@@ -21,7 +21,7 @@ Leur serveur était disponible sur 2 instances connues avant la migration vers l
 
 
 ::: warning IMPORTANT
-Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
+Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisées.
 
 * `http://www.t2c.fr/admin/synthese`
 
@@ -45,7 +45,7 @@ Les instances suivantes sont *"obsolètes"* et ne devraient pas être utilisés.
 
 ## Avertissement
 ::: danger Avertissement Légal
-**Ceci est une documentation non-officielle de l'api utilisée dans l'appli T2C.**
+**Ceci est une documentation non officielle de l'api utilisée dans l'appli T2C.**
 
 Nous ne sommes pas associés à "*[T2C](https://www.t2c.fr/)*", la "*[Régie EPIC T2C](https://annuaire-entreprises.data.gouv.fr/entreprise/regie-des-transports-urbains-de-l-agglomeration-clermontoise-t2c-789515160)*", à "*[C.Vélo](https://www.c-velo.fr/)*", au "*[SMTC-AC](https://www.smtc-clermont-agglo.fr/)*" ou à tout autre service lié au réseau de transport de Clermont.
 

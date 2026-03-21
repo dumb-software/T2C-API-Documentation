@@ -8,7 +8,7 @@ Obtenir le temps restant d'attente d'un arrêt.
 
 Contient aussi d'autres informations sur le trajet, comme l'heure d'arrivée, un compte a rebours, si il est annulé, accès handicapé disponible...
 
-Cela peut peut comprendre ou non toutes les Lignes associés à l'arrêt si le paramètre `lineid=` est indiqué.
+Cela peut comprendre ou non toutes les Lignes associées à l'arrêt si le paramètre `lineid=` est indiqué.
 
 ## Obtenir les prochains départs (Ligne Spécifiée)
 
@@ -146,11 +146,11 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 * `plannedDateTime=` correspond à l'heure de l'arrivée du véhicule (approximatif).
 * `arrivalDateTime=` *inutilisé*
 * `plannedArrivalDateTime=` *inutilisé*
-* `id=` correspond à l'identifiant du depart
-* `is_canceled=` indique si le depart est annulé.
+* `id=` correspond à l'identifiant du départ
+* `is_canceled=` indique si le départ est annulé.
 * `handicapped_access=` indique si l'arrêt *"supporte"* les personnes à mobilité réduite.
 * `blink=` *inutilisé*
-* `realTime=` indique si l'horaire de depart est en temps réel.
+* `realTime=` indique si l'horaire de départ est en temps réel.
 * `waiting_time=` est un compte à rebours du temps restant à attendre.
 
 **La balise `<stop>`:**

@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "T2C API Documentation",
-  description: "Documentation non-officielle de l'API T2C",
+  description: "Documentation non officielle de l'API T2C",
   cleanUrls: true,
   base: '/T2C-API-Documentation/',
   lastUpdated: true,
@@ -93,7 +93,7 @@ export default defineConfig({
               items: [
                 { text: 'Informations', link: '/WinDev/OpenIT/readme' },
                 { text: 'Timetables', link: '/WinDev/OpenIT/timetables' },
-                { text: 'Prochains Departs', link: '/WinDev/OpenIT/prochainsDeparts' },
+                { text: 'Prochains Départs', link: '/WinDev/OpenIT/prochainsDeparts' },
                 { text: 'Schedules', link: '/WinDev/OpenIT/schedules' },
               ]
             },

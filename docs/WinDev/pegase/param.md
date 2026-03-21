@@ -7,7 +7,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 Obtenir la dernière date/heure des dernières modifications des [notifications](/WinDev/pegase/notification)
 
 :::info
-L'application T2C vérifie régulièrement cet endpoint pour vérifier si il y'a de nouvelles notifications.
+L'application T2C vérifie régulièrement cet endpoint pour vérifier s'il y a de nouvelles notifications.
 :::
 
 ## Obtenir la date des dernières modifications
