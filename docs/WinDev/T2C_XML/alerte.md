@@ -1,7 +1,7 @@
 # T2C XML - Alerte.xml
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 Les Dernières Alertes du Réseau T2C.

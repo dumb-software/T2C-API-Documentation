@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "T2C API Documentation",
   description: "Documentation non officielle de l'API T2C",
+  lang: 'fr-FR',
   cleanUrls: true,
   base: '/T2C-API-Documentation/',
   lastUpdated: true,
@@ -20,6 +21,11 @@ export default defineConfig({
     ['meta', { property: 'og:site_name', content: 'T2C API Documentation' }],
     ['meta', { property: 'og:image', content: 'https://dumb-software.github.io/T2C-API-Documentation/favicon.png'}],
     ['meta', { property: 'og:url', content: 'https://dumb-software.github.io/T2C-API-Documentation/' }],
+    ['meta', { property: 'og:description', content: "Documentation non officielle de l'API T2C" }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'T2C API Documentation' }],
+    ['meta', { name: 'twitter:description', content: "Documentation non officielle de l'API T2C" }],
+    ['meta', { name: 'twitter:image', content: 'https://dumb-software.github.io/T2C-API-Documentation/apilogo2.png' }],
     ['meta', { name: 'google-site-verification', content: 'XVCEArdPRAwzn5EyP6qS89xwwPJjR7AGCMdQODkZKaM' }],
   ],
   themeConfig: {
@@ -31,17 +37,17 @@ export default defineConfig({
       {
         text: 'API Yoozly',
         items: [
-          { text: 'API Server', link: '/Yoozly/API_Server/readme' },
-          { text: 'Analytics', link: '/Yoozly/analytics/readme' }
+          { text: 'API Server', link: '/Yoozly/API_Server/' },
+          { text: 'Analytics', link: '/Yoozly/analytics/' }
         ]
       },
       { 
-        text: 'API WinDev',
+        text: 'API WinDev (Obsolète)',
         items: [
-          { text: 'OpenIT', link: '/WinDev/OpenIT/readme' },
-          { text: 'T2C XML', link: '/WinDev/T2C_XML/readme' },
-          { text: 'WinDev Push Server', link: '/WinDev/WD_Push/readme' },
-          { text: 'Pegase', link: '/WinDev/pegase/readme' },
+          { text: 'OpenIT', link: '/WinDev/OpenIT/' },
+          { text: 'T2C XML', link: '/WinDev/T2C_XML/' },
+          { text: 'WinDev Push Server', link: '/WinDev/WD_Push/' },
+          { text: 'Pegase', link: '/WinDev/pegase/' },
         ]
       }
     ],
@@ -71,27 +77,27 @@ export default defineConfig({
               text: 'API_Server',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/Yoozly/API_Server/readme' }
+                { text: 'Informations', link: '/Yoozly/API_Server/' }
               ]
             },
             {
               text: 'Analytics',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/Yoozly/analytics/readme' }
+                { text: 'Informations', link: '/Yoozly/analytics/' }
               ]
             },
           ],
         },
         {
-          text: "API WinDev",
+          text: "API WinDev (Obsolète)",
           collapsed: false,
           items: [
             { 
               text: 'OpenIT',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/WinDev/OpenIT/readme' },
+                { text: 'Informations', link: '/WinDev/OpenIT/' },
                 { text: 'Timetables', link: '/WinDev/OpenIT/timetables' },
                 { text: 'Prochains Départs', link: '/WinDev/OpenIT/prochainsDeparts' },
                 { text: 'Schedules', link: '/WinDev/OpenIT/schedules' },
@@ -101,7 +107,7 @@ export default defineConfig({
               text: 'T2C_XML',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/WinDev/T2C_XML/readme' },
+                { text: 'Informations', link: '/WinDev/T2C_XML/' },
                 { text: 'Alerte', link: '/WinDev/T2C_XML/alerte' },
                 { text: 'Brèves', link: '/WinDev/T2C_XML/breves' },
                 { text: 'Événements', link: '/WinDev/T2C_XML/evenements' },
@@ -112,14 +118,14 @@ export default defineConfig({
               text: 'WinDev Push Server',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/WinDev/WD_Push/readme' },
+                { text: 'Informations', link: '/WinDev/WD_Push/' },
               ]
             },
             {
               text: 'Pegase',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/WinDev/pegase/readme' },
+                { text: 'Informations', link: '/WinDev/pegase/' },
                 { text: 'Paramètres', link: '/WinDev/pegase/param' },
                 { text: 'Notification', link: '/WinDev/pegase/notification' },
               ]

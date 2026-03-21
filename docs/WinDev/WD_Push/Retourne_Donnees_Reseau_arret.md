@@ -1,7 +1,7 @@
 # T2C Push Server - Retourne_Donnees_Reseau_arret
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 Obtenir les informations des arrêts du réseau T2C.
@@ -9,7 +9,7 @@ Obtenir les informations des arrêts du réseau T2C.
 :::info
 Cela comprend les noms de l'arrêt, l'identifiant de l'arrêt, la ville, l'identifiant de la zone, et les coordonnées GPS des arrêts.
 
-Les Coordonnés GPS sont en Longitude Latitude, pas en Latitude Longitude.
+Les Coordonnées GPS sont en Longitude Latitude, pas en Latitude Longitude.
 :::
 
 ## Obtenir les derniers tarifs

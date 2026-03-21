@@ -5,7 +5,7 @@
 </div>
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 ::: warning WORK IN PROGRESS

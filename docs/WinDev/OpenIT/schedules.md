@@ -1,7 +1,7 @@
 # OpenIT - Schedules
 
 ::: danger Endpoint Obsolète:
-Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/readme.md).
+Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/API_Server/index.md).
 :::
 
 Calculer un itinéraire, pour aller d'un arrêt à un autre.
@@ -36,7 +36,7 @@ ou
 | `dy=`                     | **Recommandé.** Date de départ.                                                                           | `dy=2025-08-24`                |
 | `md=`                     | **Optionnel.** Coche "Sans Correspondance" `(0 = On; 3 = Off)`                                            | `md=3`                         |
 | `pi=`                     | **Optionnel.** Filtre du temps de la journée. `(0 = Journée; 1 = Matin; 2 = Midi; 3= Après-Midi; 4=Soir)` | `pi=0`                         |
-| `ac=`                     | **Optionnel.** Coche "Personne à Mobilité Réduite"                                                        | `ac=on`                        |
+| `ac=`                     | **Optionnel.** Option "Personnes à Mobilité Réduite"                                                        | `ac=on`                        |
 | `departure_class_filter=` | **Recommandé.** Type de départ (arrêt, adresse, points d'intérêt...)                                      | `departure_class_filter=stop`  |
 | `dpt=`                    | **Recommandé.** Nom du départ                                                                             | `dpt=Sully%20Clermont-Ferrand` |
 | `apt=`                    | **Recommandé.** Nom de l'arrivée                                                                          | `apt=Jaude%20Clermont-Ferrand` |
