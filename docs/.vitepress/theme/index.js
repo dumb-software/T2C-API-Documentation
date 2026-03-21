@@ -2,6 +2,7 @@
 import { h } from 'vue'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import LegalWarning from './components/LegalWarning.vue'
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -12,6 +13,7 @@ export default {
     })
   },
   enhanceApp({ app, router, siteData }) {
+    app.component('LegalWarning', LegalWarning)
     // ...
   }
 }

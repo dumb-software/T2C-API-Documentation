@@ -20,33 +20,7 @@ Les alertes sont les messages qui apparaissent au premier plan lors du lancement
 ## Exemple de réponse
 
 :::details Cliquez pour voir la Réponse.
-```xml{9-23}
-<?xml version="1.0" encoding="utf-8"?>
-<rss
-	xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
-	<channel>
-		<title/>
-		<link>https://www.t2c.fr/</link>
-		<description/>
-		<language>fr</language>
-		<item>
-			<title>La gratuité ne s'applique pas les jours fériés</title>
-			<link>https://www.t2c.fr/la-gratuite-ne-sapplique-pas-les-jours-feries</link>
-			<description>
-&lt;span&gt;La gratuité ne s'applique pas les jours fériés&lt;/span&gt;
-
-
-&lt;p&gt;&lt;span style="color:#ffffff;"&gt;Attention, la gratuité s'applique uniquement les samedis et dimanches. Vous devez être muni d'un titre de transport valide les jours fériés.&lt;/span&gt;&lt;/p&gt;
-  &lt;img loading="lazy" src="https://www.t2c.fr/sites/default/files/2025-04/PICTOS_BILLETSANSCONTACT_0.png" width="850" height="850" alt="La gratuité ne s'applique pas les jours fériés"&gt;
-
-</description>
-			<pubDate>Tue, 15 Apr 2025 13:47:59 +0000</pubDate>
-			<dc:creator>m.bonhomme</dc:creator>
-			<guid isPermaLink="false">267164 at https://www.t2c.fr</guid>
-		</item>
-	</channel>
-</rss>
-```
+<<< @/snippets/alerte.xml{9-23}
 :::
 
 ### Attributs du XML d'alerte:
@@ -65,35 +39,7 @@ Les alertes sont les messages qui apparaissent au premier plan lors du lancement
 ## Exemple de formatage
 
 :::details Cliquez pour voir le formatage.
-```xml{10-25}
-<?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
-  <channel>
-    <title/>
-    <link>
-    https://www.t2c.fr/
-    </link>
-    <description/>
-    <language>fr</language>
-    <item>
-      <title>Normal conversation between Osaka and Father</title>
-      <link>
-      https://www.t2c.com/
-      </link>
-      <description>
-&lt;p&gt;&lt;span style=&quot;color: #f3c631;&quot;&gt;Father: &quot;Hello everynyan! How are you? Fine, thank you.&quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: #ff9900;&quot;&gt;Osaka: &quot;Oh my gah!&quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span style=&quot;color: #f3c631;&quot;&gt;Father: &quot;I wish I were a bird.&quot;&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&amp;nbsp;&lt;/p&gt;
-&lt;img loading=&quot;lazy&quot; src=&quot;http://127.0.0.1/img/osaka.png&quot; width=&quot;182&quot; height=&quot;138&quot; alt=&quot;Osaka going Oh my gah!&quot;&gt;
-      </description>
-      <pubDate>Fri, 14 Mar 2025 00:00:00 +0000</pubDate>
-      <dc:creator>LariVille</dc:creator>
-      <guid isPermaLink="false">000000 at https://www.t2c.fr</guid>
-    </item>
-  </channel>
-</rss>
-```
+<<< @/snippets/alerte-1.xml{10-25}
 :::
 
 <h3 align="center">

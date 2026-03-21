@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
+  <channel>
+    <title>Brèves</title>
+    <link>
+    https://www.t2c.fr/
+    </link>
+    <description/>
+    <language>fr</language>
+    <item>
+      <title>Titre 1</title>
+      <link>
+      https://www.t2c.fr/
+      </link>
+      <description>
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+      </description>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">111111 at https://www.t2c.fr</guid>
+    </item>
+    <item>
+      <title>Titre 2</title>
+      <link>
+      https://www.t2c.fr/
+      </link>
+      <description>
+	&lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+	&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+	&lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+      </description>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">111112 at https://www.t2c.fr</guid>
+    </item>
+  </channel>
+</rss>

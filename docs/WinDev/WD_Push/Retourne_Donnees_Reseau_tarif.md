@@ -36,31 +36,7 @@ Les informations sont affichées dans l'onglet "Tarifs" de l'application.
 ## Exemple de réponse
 
 :::details Cliquez pour voir la Réponse.
-```xml{8-21}
-<?xml version="1.0" encoding="UTF-8"?>
-<SOAP-ENV:Envelope
-	xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
-	<SOAP-ENV:Header/>
-	<SOAP-ENV:Body>
-		<Retourne_Donnees_Reseau_tarifResult>H4sIAAAAAAAACpWWX0/bMBTFv8pVnzYBUXzTf+GNMYambaJifRsTchO3eEqcyIkRaNp3n9MU&#13;
-Qe1rT3uq0rjn+N7e37FvRduoTtx8WePl2dkP+A2T+l59/rjmWm4n5+x0eO6+yo2oKjE5n3yQ&#13;
-9rOHjqsOikb1vOgn45qVlk92QZpgCncGU16ML9SNLoW+51srh/Dn1LVA1+JS35k0FTnvZaOg&#13;
-MaCFaszj8LYWqoeC617AzbBom2t+bI9JGrbPCPvMtWfw2DzznTjWZck8rDsldKchXdhXl8Km&#13;
-0SWUooON6f6jhhnhNXO98ODlCGcx4TkhPPeKSGllNotJLwnphbfnKTwIo21DvjdVcyw/S7IU&#13;
-gvI5Ib8My6+13Bhn+1lsam3RvkEeNrjWjWmd+UGW5BEHRjiw1LWYLsMtypNZRJ8Cj3lwv+oT&#13;
-PcrS2F/MKLaYx/YCwxWw6HgyCjLm0ftqQJQwfTOlQFhQbDEP5MtG7caIWnbA4FdjdBAzOGFv&#13;
-Hlqu98uhM21bjSk3RBqXWhDboYhkHusrrgu4FRWXVFOn0Z4uKAcP+rcO1GzP412l6Gce/t+E&#13;
-6oyoHOX4zFHgM4/8gzKc4RzsseVwuUyWkfOKIp956L84rLSbW4vY/pGiHj3qL+xBW7e90FAa&#13;
-O2+fxrl51NJ+gylmx5a+DVUDeuwfarDcXN2e2MuAM0b5kMDBQshz3YP/pU0Hh8AfMosFJVIx&#13;
-g14KvDhZHmQ5aLH8QmpgjtU0lplIBQ56aRCwQifb0teqCEaQSh70UA94ZS7yWcyKShX0mL9Q&#13;
-anBycYzyiFScoEf6QTqAY9yByhL0iD84EDjG1ak8QY/2K7Xlqu/2MvbY21cBvBgg5Ts10tnB&#13;
-u5o/ydrUkIEYf/De6ea15r2RPXFNpXIh83NhrPKqbqvmWbiH0DyenRmVCpl/3Tcd2Ov+WvMa&#13;
-duN+O6iEvf/XopTDK/tQypqr4kH8K4hsWfDzL/e25cBxDAAA</Retourne_Donnees_Reseau_tarifResult>
-	</SOAP-ENV:Body>
-</SOAP-ENV:Envelope>
-```
+<<< @/snippets/Retourne_Donnees_Reseau_tarif.xml{8-21}
 :::
 
 :::tip IMPORTANT

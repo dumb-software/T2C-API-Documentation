@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss
+	xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xml:base="https://www.t2c.fr/">
+	<channel>
+		<title>Infos trafic</title>
+		<link>https://www.t2c.fr/</link>
+		<description/>
+		<language>fr</language>
+		<item>
+			<title>ligne interrompue (pour la 10eme fois)</title>
+			<link>https://www.t2c.fr/actu-infos-trafic/</link>
+			<lignesId>11821953316814895</lignesId>
+			<description>
+				&lt;p&gt;ligne interrompue pour la 10eme fois&lt;/p&gt;
+				&lt;p&gt;le tram est interrompu pour une raison random encore&lt;/p&gt;
+				&lt;ul&gt;
+				&lt;li&gt;peut &amp;ecirc;tre &lt;strong&gt;malaise voyageur??&lt;/strong&gt;&lt;/li&gt;
+				&lt;li&gt;ou encore&lt;strong&gt;&amp;nbsp;travaux??&lt;/strong&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;p&gt;on sait jamais&amp;nbsp;&lt;/p&gt;
+				&lt;p&gt;&amp;nbsp;&lt;/p&gt;
+				&lt;p&gt;&lt;a title=&quot;ligne interrompue (pour la 10eme fois)&quot; href=&quot;https://www.t2c.fr/actu-infos-trafic/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;lire la suite&lt;/a&gt;&lt;/p&gt;
+			</description>
+			<pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+			<guid isPermaLink="false">999999 at https://www.t2c.fr</guid>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-tram">Ligne Tram A</category>
+			<categoryLignesId>11821953316814895</categoryLignesId>
+		</item>
+		<item>
+			<title>Lorem ipsum dolor sit amet</title>
+			<link>https://www.t2c.fr/actu-infos-trafic/</link>
+			<lignesId>11821953316814897</lignesId>
+			<lignesId>11821953316814915</lignesId>
+			<lignesId>11821953316814889</lignesId>
+			<lignesId>11821953316814893</lignesId>
+			<lignesId>11821953316814874</lignesId>
+			<lignesId>11821953316814876</lignesId>
+			<lignesId>11821953316814907</lignesId>
+			<description>
+        &lt;span&gt;Lorem ipsum dolor sit amet&lt;/span&gt;
+        &lt;p&gt;&amp;nbsp;&lt;/p&gt;
+        &lt;p&gt;Lorem ipsum dolor sit amet, &lt;strong&gt;consectetur adipiscing elit&lt;/strong&gt;, &lt;em&gt;sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/em&gt; &lt;span style=&quot;text-decoration: underline;&quot;&gt;Ut enim ad minim veniam,&lt;/span&gt; &lt;strong&gt;&lt;span style=&quot;color: #ff0000;&quot;&gt;quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/span&gt;&lt;/strong&gt; &lt;a href=&quot;https://example.com/&quot;&gt;Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.&lt;/a&gt;&lt;/p&gt;
+</description>
+			<pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+			<guid isPermaLink="false">999998 at https://www.t2c.fr</guid>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-b">Ligne B</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-c">Ligne C</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-5">Ligne 5</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-9">Ligne 9</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-10">Ligne 10</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/ligne-13">Ligne 13</category>
+			<category domain="https://www.t2c.fr/actualites-infos-trafic-par-ligne/navette-du-panoramique">Navette du Panoramique</category>
+			<categoryLignesId>11821953316814897</categoryLignesId>
+			<categoryLignesId>11821953316814915</categoryLignesId>
+			<categoryLignesId>11821953316814889</categoryLignesId>
+			<categoryLignesId>11821953316814893</categoryLignesId>
+			<categoryLignesId>11821953316814874</categoryLignesId>
+			<categoryLignesId>11821953316814876</categoryLignesId>
+			<categoryLignesId>11821953316814907</categoryLignesId>
+		</item>
+	</channel>
+</rss>

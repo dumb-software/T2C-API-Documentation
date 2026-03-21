@@ -54,74 +54,7 @@ Ici, nous avons fait la demande des prochains passages de l'arrêt **Sully**, de
 ## Exemple de réponse
 
 :::details Cliquez pour voir la Réponse.
-```xml{3-65}
-<timeTable
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://synthese.rcsmobility.com/include/54_departures_table/DisplayScreenContentCommon.xsd" type="departure">
-	<journey routeId="2533425114685885" dateTime="2025-08-27 17:48:46" plannedDateTime="2025-08-27 17:48:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639382" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="00:21:36.471255">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Georges Besse" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942181" name="Georges Besse" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685887" dateTime="2025-08-27 18:14:46" plannedDateTime="2025-08-27 18:14:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639277" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="00:47:36.470612">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Jean Moulin" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942183" name="Jean Moulin" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685885" dateTime="2025-08-27 18:40:28" plannedDateTime="2025-08-27 18:40:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639264" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="01:13:18.470159">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Georges Besse" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942181" name="Georges Besse" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685886" dateTime="2025-08-27 19:15:28" plannedDateTime="2025-08-27 19:15:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639340" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="01:48:18.469720">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Brézet" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942174" name="Brézet" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685886" dateTime="2025-08-27 19:44:28" plannedDateTime="2025-08-27 19:44:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639295" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="02:17:18.469272">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Brézet" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942174" name="Brézet" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685886" dateTime="2025-08-27 20:16:28" plannedDateTime="2025-08-27 20:16:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639384" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="02:49:18.468832">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Brézet" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942174" name="Brézet" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-	<journey routeId="2533425114685887" dateTime="2025-08-27 21:15:28" plannedDateTime="2025-08-27 21:15:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951673922" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="03:48:18.468389">
-		<stop id="3377704015496218" operatorCode="" name="Sully" handicapped_access="yes"/>
-		<line id="11821953316814893" creatorId="" name="Ligne 9" shortName="9" longName="9" color="(171,115,5)" xmlColor="#ab7305" foregroundColor="" xmlForegroundColor="" style="marron" image="ligne-9.jpg" direction="Jean Moulin" wayback="1" handicapped_access="yes">
-			<network id="6192453782601729" name="T2C" image="" />
-		</line>
-		<origin id="1970462275928130" name="Trémonteix Eychart" cityName="Clermont-Ferrand"/>
-		<destination id="1970329131942183" name="Jean Moulin" cityName="Clermont-Ferrand"/>
-		<stopArea id="1970329131942039" name="Sully" cityId="1688849860563049" cityName="Clermont-Ferrand" directionAlias=""/>
-	</journey>
-</timeTable>
-```
+<<< @/snippets/prochainsDeparts.xml{3-65}
 
 :::
 
