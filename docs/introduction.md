@@ -10,7 +10,7 @@ Yoozly est la toute nouvelle API qu'utilise l'application T2C sur les versions `
 
 | Backends                                                  | Description                                                     | Statut                |
 | :-------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |
-| [API Server](/Yoozly/API_Server/index.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 0%  (À documenter)    |
+| [API Server](/Yoozly/API_Server/index.md)                | Horaires, Itinéraires, Actus, Infos, Notifications...           | 5%  (À documenter)    |
 | [Analytics](/Yoozly/analytics/index.md)                  | Tracking utilisateur.                                           | 0%  (À documenter)    |
 
 
