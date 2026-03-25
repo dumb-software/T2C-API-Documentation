@@ -9,7 +9,7 @@
 
 **Une réanalyse complète de la backend est en cours (désolé c'est la procrastination)**
 
-**Vous souhaitez aider? Un sample des requêtes est disponible [ici](https://raw.githubusercontent.com/dumb-software/T2C-API-Documentation/refs/heads/main/docs/public/api.t2c.fr_2026_03_18_14_56_35.har).**
+**Vous souhaitez aider? Un sample des requêtes est disponible [ici](https://github.com/dumb-software/t2c-samples).**
 :::
 
 API Server est la toute nouvelle API de la T2C depuis la grande refonte de leur infrastructure du 20 Décembre 2025.
