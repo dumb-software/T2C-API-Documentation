@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="/placeholder.png" width="110px" alt="Analytics logo"/>
+  <img src="/analyticslogo.png" width="300px" alt="Analytics logo"/>
   <br>
   <h1>Analytics Server</h1>
 </div>
