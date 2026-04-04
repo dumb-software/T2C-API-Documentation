@@ -6,7 +6,7 @@
 
 ## Présentation
 
-**Analytics Server** est une backend collectant des informations utilisateurs *(Bravo la T2C)*.
+**Analytics Server** est un backend collectant des informations utilisateurs *(Bravo la T2C)*.
 
 Ce serveur utilise le projet Open-Source [umami](https://github.com/umami-software/umami).
 
