@@ -19,7 +19,7 @@ Le serveur collecte des informations comme:
 
 | Endpoint                              | Description                                     |
 | :------------------------------------ | :---------------------------------------------- |
-| /send                                 | Envoyer des informations d'analyse              |
+| send                                  | Envoyer des informations d'analyse              |
 
 ## Avertissement
 <LegalWarning />
