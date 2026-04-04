@@ -14,7 +14,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 ## Présentation
 
-**WinDev Push Server** était une backend principalement utilisée pour exécuter des actions, elle était utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
+**WinDev Push Server** était un backend principalement utilisée pour exécuter des actions, elle était utilisée pour recevoir certaines informations du réseau T2C. (comme les identifiants des lignes, arrêts, les images, tarifs...)
 
 [Ce serveur](https://help.windev.com/fr-FR/?1000021015) est proposé par WinDev Mobile et utilise la même infrastructure que leur application mobile, ce qui facilite son intégration.
 

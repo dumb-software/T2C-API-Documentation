@@ -35,7 +35,7 @@ Les infos trafic sont le contenu affiché dans l'onglet "Infos-Trafic" de l'appl
 * La balise `<description>` est la partie principale, le contenu est formaté en "HTML échappé" (escaped HTML). Elle contient tout ce qui va être affiché dans l'application, par exemple: le texte; les couleurs; les images...
 * La balise `<pubDate>` contient la date de publication de l'info.
 * La balise `<guid>` est l'identifiant unique universel de l'info.
-* La balise `<category>` est la ligne concernée affiché en tant que `m_sLigne_name`. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
+* La balise `<category>` est la ligne concernée affichée en tant que `m_sLigne_name`. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
 * La balise `<categoryLignesId>` est l'identifiant de la ligne concernée.
 
 ## Exemple de formatage

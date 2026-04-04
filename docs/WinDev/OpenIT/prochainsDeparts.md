@@ -6,7 +6,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 Obtenir le temps restant d'attente d'un arrêt.
 
-Contient aussi d'autres informations sur le trajet, comme l'heure d'arrivée, un compte a rebours, si il est annulé, accès handicapé disponible...
+Contient aussi d'autres informations sur le trajet, comme l'heure d'arrivée, un compte à rebours, s'il est annulé, accès handicapé disponible...
 
 Cela peut comprendre ou non toutes les Lignes associées à l'arrêt si le paramètre `lineid=` est indiqué.
 
@@ -59,7 +59,7 @@ Ici, nous avons fait la demande des prochains passages de l'arrêt **Sully**, de
 :::
 
 ### Formatage:
-Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
+Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ceci :
 
 ```xml
 <journey routeId="2533425114685887" dateTime="2025-08-27 18:14:46" plannedDateTime="2025-08-27 18:14:00" arrivalDateTime="" plannedArrivalDateTime="" id="4503749951639277" is_canceled="no" handicapped_access="yes" operatorCode="" blink="0" realTime="yes" waiting_time="00:47:36.470612">
@@ -76,7 +76,7 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 **La balise `<journey>`:**
 * `routeId=` correspond à l'identifiant de la route.
 * `dateTime=` correspond à l'heure de l'arrivée du véhicule.
-* `plannedDateTime=` correspond à l'heure de l'arrivée du véhicule (approximatif).
+* `plannedDateTime=` correspond à l'heure de l'arrivée du véhicule (approximative).
 * `arrivalDateTime=` *inutilisé*
 * `plannedArrivalDateTime=` *inutilisé*
 * `id=` correspond à l'identifiant du départ
@@ -98,10 +98,10 @@ Nous allons prendre l'exemple d'un départ, la réponse est formatée comme ci:
 * `name=` correspond au nom complet de la Ligne.
 * `shortName=` correspond au nom "court" de la Ligne.
 * `shortName=` correspond au nom "long" de la Ligne.
-* `color=` correspond à la couleur associé à la Ligne. (formaté en RGB)
-* `xmlColor=` correspond à la couleur associé à la Ligne. (formaté en Hex)
-* `foregroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en RGB)
-* `xmlForegroundColor=` correspond à la couleur au premier plan associé à la Ligne. (formaté en Hex)
+* `color=` correspond à la couleur associée à la Ligne. (formaté en RGB)
+* `xmlColor=` correspond à la couleur associée à la Ligne. (formaté en Hex)
+* `foregroundColor=` correspond à la couleur au premier plan associée à la Ligne. (formaté en RGB)
+* `xmlForegroundColor=` correspond à la couleur au premier plan associée à la Ligne. (formaté en Hex)
 * `style=` correspond au nom simple attribué à la couleur de la Ligne.
 * `image=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
 * `direction=` correspond à la direction du Trajet.

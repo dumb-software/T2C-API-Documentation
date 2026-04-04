@@ -66,10 +66,10 @@ Ici, nous avons fait la demande des itinéraires pour aller de l'arrêt **Sully*
 
 :::
 
-La réponse renvoie plusieurs itinéraires séparés chacunes par les balises `<board>`
+La réponse renvoie plusieurs itinéraires séparés chacun par les balises `<board>`
 
 ### Formatage:
-Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme ci:
+Nous allons prendre l'exemple d'un itinéraire, la réponse est formatée comme ceci :
 
 <<< @/snippets/schedules-1.xml
 <h3 align="center">
@@ -87,12 +87,12 @@ Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme
 * `apn=` correspond au nom de l'arrêt d'arrivée.
 * `dt=` correspond à l'heure de départ du trajet.
 * `at=` correspond à l'heure d'arrivée du trajet.
-* `dlo=` correspond aux coordonnés GPS de la longitude de l'arrêt de départ.
-* `dla=` correspond aux coordonnés GPS de la latitude de l'arrêt de départ.
-* `alo=` correspond aux coordonnés GPS de la longitude de l'arrêt d'arrivée.
-* `ala=` correspond aux coordonnés GPS de la latitude de l'arrêt d'arrivée.
-* `pertdep=` indique si il y'a des perturbations à l'arrêt de départ.
-* `pertarr=` indique si il y'a des perturbations à l'arrêt d'arrivée.
+* `dlo=` correspond aux coordonnées GPS de la longitude de l'arrêt de départ.
+* `dla=` correspond aux coordonnées GPS de la latitude de l'arrêt de départ.
+* `alo=` correspond aux coordonnées GPS de la longitude de l'arrêt d'arrivée.
+* `ala=` correspond aux coordonnées GPS de la latitude de l'arrêt d'arrivée.
+* `pertdep=` indique s'il y a des perturbations à l'arrêt de départ.
+* `pertarr=` indique s'il y a des perturbations à l'arrêt d'arrivée.
 
 **La balise `<leg>`:**
 * `ill=` indique le leg final (va afficher "vous arrivez à votre destination...")
@@ -100,24 +100,24 @@ Nous allons prendre l'exemple d'un itinéraires, la réponse est formatée comme
 * `fat=` heure théorique d'arrivée du véhicule de la Ligne.
 * `dsn=` nom de l'arrêt où l'utilisateur doit attendre le véhicule.
 * `asn=` nom de l'arrêt où l'utilisateur doit descendre du véhicule.
-* `dlo=` correspond aux coordonnés GPS de la longitude de l'arrêt de départ.
-* `dla=` correspond aux coordonnés GPS de la latitude de l'arrêt de départ.
+* `dlo=` correspond aux coordonnées GPS de la longitude de l'arrêt de départ.
+* `dla=` correspond aux coordonnées GPS de la latitude de l'arrêt de départ.
 * `ia=` indique si un débarquement est requis. ("descendez à l'arrêt...")
-* `alo=` correspond aux coordonnés GPS de la longitude de l'arrêt d'arrivée.
-* `ala=` correspond aux coordonnés GPS de la latitude de l'arrêt d'arrivée.
+* `alo=` correspond aux coordonnées GPS de la longitude de l'arrêt d'arrivée.
+* `ala=` correspond aux coordonnées GPS de la latitude de l'arrêt d'arrivée.
 * `it=` ???
 * `si=` indique l'identifiant de la zone.
 * `lsn=` correspond au nom court de la Ligne.
 * `li=` indique l'identifiant de la Ligne.
 * `n=` correspond au nom complet de la Ligne.
 * `i=` correspond à l'image affichée dans l'application T2C pour représenter la Ligne. (voir [Retourne_Donnees_Reseau_ligne](/WinDev/WD_Push/Retourne_Donnees_Reseau_ligne.md))
-* `lc=` correspond à la couleur associé à la Ligne. (formaté en RGB)
+* `lc=` correspond à la couleur associée à la Ligne. (formaté en RGB)
 * `w=` représente le tracé du parcours d'une Ligne sur la Carte de l'itinéraire. (Longitude, Latitude)
 * `dn=` indique le nom de la destination de la Ligne.
 * `rn=` indique le nom d'une rue à suivre.
 * `l=` indique sur combien de mètres il faut suivre cette rue.
-* `pertdep=` indique si il y'a des perturbations à l'arrêt de départ.
-* `pertarr=` indique si il y'a des perturbations à l'arrêt d'arrivée.
+* `pertdep=` indique s'il y a des perturbations à l'arrêt de départ.
+* `pertarr=` indique s'il y a des perturbations à l'arrêt d'arrivée.
 
 ::: info
 Le calcul de `"Temps d'attente: X min"` dans l'application T2C se calcule avec `fdt` du prochain leg, moins `fat` du leg précédent.

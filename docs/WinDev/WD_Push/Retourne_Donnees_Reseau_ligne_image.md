@@ -44,9 +44,9 @@ La réponse est trop longue, elle a été coupée.
 :::
 
 :::tip IMPORTANT
-Les informations sont contenus dans la balise `<Retourne_Donnees_Reseau_arretResult>`.
+Les informations sont contenues dans la balise `<Retourne_Donnees_Reseau_arretResult>`.
 
-Mais **elles sont encodés en BASE64 puis en GunZip!**
+Mais **elles sont encodées en BASE64 puis en GunZip!**
 
 Pour lire les informations, **nous vous recommandons d'utiliser [ce preset CyberChef](https://cyberchef.io/#recipe=Find_/_Replace(%7B'option':'Regex','string':'%26%2313;'%7D,'',true,true,true,false)From_Base64('A-Za-z0-9%2B/%3D',true)Gunzip()Unescape_Unicode_Characters('%5C%5Cu')).**
 :::
@@ -55,10 +55,10 @@ Pour lire les informations, **nous vous recommandons d'utiliser [ce preset Cyber
 La réponse est trop longue, elle a été coupée.
 :::
 
-En decodant l'exemple ci dessus, cela donne:
+En décodant l'exemple ci-dessus, cela donne:
 ```json
 ReponseOKT2C--[ { "m_sNom_ligne_img":"ligne-a.jpg", "m_sbufImage_ligne":"FF D8 FF E0 00 10 4A 46 49 46 00 01 01 01 01 90\r\n01 90 00 00 FF E1 00 68 45 78...
 ```
 :::tip IMPORTANT
-Les images sont encore encodés, en Hex cette fois ci, utilisez [ce preset CyberChef](https://cyberchef.io/#recipe=From_Hex('Auto')Render_Image('Raw')) pour extraire le contenu encodé en Hex uniquement.
+Les images sont encore encodées, en Hex cette fois-ci, utilisez [ce preset CyberChef](https://cyberchef.io/#recipe=From_Hex('Auto')Render_Image('Raw')) pour extraire le contenu encodé en Hex uniquement.
 :::

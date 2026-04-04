@@ -7,16 +7,16 @@
 ::: danger WORK IN PROGRESS
 **Ce serveur est en cours de documentation!**
 
-**Une réanalyse complète de la backend est en cours (désolé c'est la procrastination)**
+**Une réanalyse complète de le backend est en cours (désolé c'est la procrastination)**
 
 **Vous souhaitez aider? Un sample des requêtes est disponible [ici](https://github.com/dumb-software/t2c-samples).**
 :::
 
 API Server est la toute nouvelle API de la T2C depuis la grande refonte de leur infrastructure du 20 Décembre 2025.
 
-Cette backend est un remplacement total des autres backends de l'API WinDev.
+Ce backend est un remplacement total des autres backends de l'API WinDev.
 
-Leur instance de production est disponible sur `api.t2c.fr` et leur instance de development est sur `api-staging.t2c.fr`.
+Leur instance de production est disponible sur `api.t2c.fr` et leur instance de développement est sur `api-staging.t2c.fr`.
 
 [Drupal](https://drupal.org/) est utilisé en tant que CMS.
 
@@ -42,13 +42,13 @@ Leur instance de production est disponible sur `api.t2c.fr` et leur instance de 
 | Endpoint                                | Description                                     |
 | :-------------------------------------- | :---------------------------------------------- |
 | `/siv/alerts/banners`                   | Alerte à l'ouverture de l'appli???              |
-| `/siv/routes`                           | Informations sur chaque Lignes et directions    |
+| `/siv/routes`                           | Informations sur chaque Ligne et directions    |
 | `/siv/alerts/{alertId}`                 | Voir les infos d'une alerte??? (cassé dans l'appli) |
 | `/siv/alerts`                           | Toutes les alertes du réseau                    |
 | `/siv/alerts/by-line/{lineId}`          | Toutes les alertes d'une ligne                  |
 | `/siv/stops`                            | Informations sur chaque arrêt                   |
 | `/siv/stops/search`                     | Rechercher un arrêt (avec les parkings et Stations C.vélo) |
-| `/siv/stops/{stopId}`                   | Informations détaillés sur un arrêt spécifié    |
+| `/siv/stops/{stopId}`                   | Informations détaillées sur un arrêt spécifié    |
 | `/siv/stops/{stopId}/departures`        | Voir les horaires d'un arrêt                    |
 | `/siv/stops/{stopId}/routes/{routeId}/departures` | Voir les horaires d'un arrêt avec une direction spécifiée |
 | `/siv/poi`                              | Positions des éléments (Arrêts; Parkings; C.vélo; Points de Vente) sur la carte |

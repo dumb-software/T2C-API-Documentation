@@ -49,4 +49,4 @@ Potentiellement utilisé pour des événements.
 ```
 :::
 
-La valeur retournée si dessus est `0;-Jeu Jazz en Tête 2023;-http://92.119.54.135/Page_Web_appli_T2C/`
+La valeur retournée ci-dessus est `0;-Jeu Jazz en Tête 2023;-http://92.119.54.135/Page_Web_appli_T2C/`

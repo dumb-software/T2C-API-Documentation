@@ -32,7 +32,7 @@ Elles apparaissent aussi dans un diaporama dans l'accueil.
 * Le contenu de l'Actu est dans la balise `<item>`.
 * Les images doivent faire partie de `EnteteSiteT2c` (par défaut: `https://www.t2c.fr`), sinon les images ne vont pas se charger.
 
-* La Balise `<title>` est le titre affiché de l'événement.
+* La balise `<title>` est le titre affiché de l'événement.
 * La balise `<link>` est un lien ramenant vers un article de la T2C lorsque l'on clique sur l'événement.
 * La balise `<description>` est la partie principale, le contenu est formaté en "HTML échappé" (escaped HTML). Elle doit contenir une balise `<span>` puis une image.
 * La balise `<pubDate>` contient la date de publication de l'évènement.

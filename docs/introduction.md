@@ -16,7 +16,7 @@ Yoozly est la toute nouvelle API qu'utilise l'application T2C sur les versions `
 
 ## API WinDev (Obsolète)
 
-L'API WinDev était utilisée sur les versions `2.5` par l'application T2C. Le 20 Décembre 2025, la T2C a opéré une refonte totale de leur infrastructure pour laisser place à l'API Yoozly, rendant obsolète celle-ci.
+L'API WinDev était utilisée sur les versions `2.5` par l'application T2C. Le 20 Décembre 2025, la T2C a opéré une refonte totale de leur infrastructure pour laisser place à l'API Yoozly, rendant cette dernière obsolète.
 
 | Backends                                                         | Description                                                     | Statut                |
 | :--------------------------------------------------------------- | :-------------------------------------------------------------- | :-------------------- |

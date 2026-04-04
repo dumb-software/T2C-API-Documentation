@@ -10,7 +10,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 ## Présentation
 
-**Pegase Server** est une backend qui gère le contenu des notifications.
+**Pegase Server** est un backend qui gère le contenu des notifications.
 
 ## Endpoints
 

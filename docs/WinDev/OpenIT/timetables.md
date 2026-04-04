@@ -48,7 +48,7 @@ La réponse est simple à comprendre, voici un exemple d'un horaire:
 7;35;11821953316814893;1970329131942174
 ```
 
-Elle est formaté comme ci:
+Elle est formatée comme ceci :
 `HEURE ; MINUTE ; IDENTIFIANT LIGNE ; IDENTIFIANT DESTINATION`
 
 Donc, le véhicule de la **Ligne 9** (`11821953316814893`), **destination Brézet** (`1970329131942174`) arrive à **l'arrêt Sully** (`3377704015496218`) à **7h35** (`7;35`).
