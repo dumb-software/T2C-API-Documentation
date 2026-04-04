@@ -6,7 +6,7 @@ Cette page parle d'un **endpoint obsolète**! Utilisez [l'API Yoozly](/Yoozly/AP
 
 Obtenir le contenu de toutes les dernières notifications (Push & Appli).
 
-## Obtenir le contenu:
+## Obtenir le contenu
 
 #### URL
 ```

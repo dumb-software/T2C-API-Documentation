@@ -17,7 +17,7 @@ Les infos trafic sont le contenu affiché dans l'onglet "Infos-Trafic" de l'appl
   GET https://www.t2c.fr/infos-trafic.xml
 ```
 
-## Exemple de réponse:
+## Exemple de réponse
 
 :::details Cliquez pour voir la Réponse.
 <<< @/snippets/infos-trafic.xml{8-1044}

@@ -79,14 +79,15 @@ export default defineConfig({
               text: 'API_Server',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/Yoozly/API_Server/' }
+                { text: 'Informations', link: '/Yoozly/API_Server/' },
               ]
             },
             {
               text: 'Analytics',
               collapsed: true,
               items: [
-                { text: 'Informations', link: '/Yoozly/analytics/' }
+                { text: 'Informations', link: '/Yoozly/analytics/' },
+                { text: 'Send', link: '/Yoozly/analytics/send' },
               ]
             },
           ],
