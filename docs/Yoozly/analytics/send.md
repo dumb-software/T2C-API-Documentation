@@ -18,7 +18,7 @@ L'application T2C utilise cet endpoint à chaque action majeure pour collecter d
 
 | Header         | Description                                                                 | Exemple                                       |
 | :------------- | :-------------------------------------------------------------------------- | :-------------------------------------------- |
-| `Content-Type` | **Requis.** Doit être défini à `application/json`.                          | `Content-Type: application/json`              |
+| `Content-Type` | **Recommandé.** Doit être défini à `application/json`.                          | `Content-Type: application/json`              |
 | `User-Agent`   | **Recommandé.** Permet à Umami de détecter l'OS et le type de smartphone.   | `Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36` |
 | `Referer`      | **Optionnel.** L'URL d'origine de la requête.                               | `https://www.t2c.fr/`                         |
 | `DNT`          | **Optionnel.** Indique si le "Do Not Track" est activé. *(Note: Le serveur de la T2C n'est pas affecté par le DNT)* | `1` |
