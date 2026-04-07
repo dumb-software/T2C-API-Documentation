@@ -32,7 +32,7 @@ jobs:
 
       - name: Create Pull Request
         id: createpr
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v8
         with:
           token: ${{ secrets.MY_CUSTOM_TOKEN }}
           commit-message: 'chore(ci): update package-lock.json'
