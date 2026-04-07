@@ -17,6 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ${{ secrets.MY_CUSTOM_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -33,7 +34,7 @@ jobs:
         id: createpr
         uses: peter-evans/create-pull-request@v6
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_CUSTOM_TOKEN }}
           commit-message: 'chore(ci): update package-lock.json'
           title: 'Weekly package-lock.json update'
           branch: 'chore/update-lockfile'
@@ -46,6 +47,6 @@ jobs:
         if: steps.createpr.outputs.pull-request-operation == 'created'
         uses: peter-evans/enable-pull-request-automerge@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.MY_CUSTOM_TOKEN }}
           pull-request-number: ${{ steps.createpr.outputs.pull-request-number }}
           merge-method: squash
