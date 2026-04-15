@@ -1,14 +1,28 @@
 :root {
+  /* =========================
+   * Base grayscale
+   * ========================= */
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
+  /* =========================
+   * Brand (primary color)
+   * ========================= */
   --vp-c-brand-1: #d6532f;
   --vp-c-brand-2: #b04628;
-  --vp-c-brand-3: #ab5036;
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-3: #8f3520;
+  --vp-c-brand-soft: rgba(214, 83, 47, 0.12);
 
+  /* =========================
+   * Icons
+   * ========================= */
+  --vp-icon: var(--vp-c-brand-1);
+
+  /* =========================
+   * Semantic colors
+   * ========================= */
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
   --vp-c-tip-3: var(--vp-c-brand-3);
@@ -25,48 +39,56 @@
   --vp-c-danger-soft: var(--vp-c-red-soft);
 }
 
-/**
- * Component: Button
- * -------------------------------------------------------------------------- */
-
+/* =========================
+ * Buttons
+ * ========================= */
 :root {
   --vp-button-brand-border: transparent;
-  --vp-button-brand-text: var(--vp-c-white);
-  --vp-button-brand-bg: #eb4a33;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-bg: var(--vp-c-brand-1);
+
+  --vp-button-brand-hover-bg: var(--vp-c-brand-2);
+  --vp-button-brand-active-bg: var(--vp-c-brand-3);
+
   --vp-button-brand-hover-border: transparent;
-  --vp-button-brand-hover-text: var(--vp-c-white);
-  --vp-button-brand-hover-bg: #aa3725;
   --vp-button-brand-active-border: transparent;
-  --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: #e9715f;
+
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-text: #ffffff;
 }
 
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
-
+/* =========================
+ * Badge TIP
+ * ========================= */
 .VPBadge.tip {
-    border-color: var(--vp-badge-tip-border);
-    color: #fa5a3b;
-    background-color: #d6332729;
+  border-color: transparent;
+  color: var(--vp-c-brand-1);
+  background-color: var(--vp-c-brand-soft);
 }
 
+/* =========================
+ * Home Hero
+ * ========================= */
 :root {
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(
+  --vp-home-hero-name-background: linear-gradient(
     120deg,
-    #d63327 30%,
-    #fa5a3b
+    #d6532f 30%,
+    #ff6a3d
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #9c3535 20%,
-    #b74827 70%
+    var(--vp-c-brand-2),
+    #b74827
   );
+
   --vp-home-hero-image-filter: blur(44px);
 }
 
+/* =========================
+ * Responsive blur tuning
+ * ========================= */
 @media (min-width: 640px) {
   :root {
     --vp-home-hero-image-filter: blur(56px);
@@ -77,23 +99,4 @@
   :root {
     --vp-home-hero-image-filter: blur(68px);
   }
-}
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-
-:root {
-  --vp-custom-block-tip-border: transparent;
-  --vp-custom-block-tip-text: var(--vp-c-text-1);
-  --vp-custom-block-tip-bg: var(--vp-c-brand-soft);
-  --vp-custom-block-tip-code-bg: var(--vp-c-brand-soft);
-}
-
-/**
- * Component: Algolia
- * -------------------------------------------------------------------------- */
-
-.DocSearch {
-  --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
