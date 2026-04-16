@@ -10,10 +10,10 @@
   /* =========================
    * Brand (primary color)
    * ========================= */
-  --vp-c-brand-1: #d6532f;
-  --vp-c-brand-2: #b04628;
-  --vp-c-brand-3: #8f3520;
-  --vp-c-brand-soft: rgba(214, 83, 47, 0.12);
+  --vp-c-brand-1: #e3502b;
+  --vp-c-brand-2: #c74222; 
+  --vp-c-brand-3: #a8351a; 
+  --vp-c-brand-soft: rgba(227, 80, 43, 0.12);
 
   /* =========================
    * Icons
@@ -73,13 +73,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
     120deg,
-    #d6532f 30%,
-    #ff6a3d
+    #e31c1c 10%,
+    #d6532f 55%,
+    #ff6a3d 90%
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    var(--vp-c-brand-2),
+    #bd2a2a,
     #b74827
   );
 
